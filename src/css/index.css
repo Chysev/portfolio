@@ -238,7 +238,7 @@ footer span a:hover{
    ================*/
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 380px) and (max-width: 480px) {
 
 	.fir_content {
 		margin: 295px 23px;
