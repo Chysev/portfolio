@@ -267,7 +267,7 @@ footer span a:hover{
 	}
 	
 	.sec_content {
-		margin: 120px 0px;
+		margin: 0px 10px;
 		padding: 0px 0px;
 	}
 	.article_content {
@@ -276,7 +276,7 @@ footer span a:hover{
 	}
 	.content_sec {
 		display: list-item;
-		width: 0px;
+		width: 300px;
 	}
 	.content_sec img {
 		margin: 0px 25px;
