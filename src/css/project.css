@@ -1,0 +1,41 @@
+/* ================
+	Global Settings
+   ================ */
+   * {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	height: 3000px;
+}
+
+/* ================
+	  top_navbar
+   ================*/
+#top_navbar {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 6px;
+	top: 0;
+	z-index: 999;
+	background-color: #dc143c;
+	transition: all 0.250s ease;
+}
+
+#top_navbar h1 {
+	font-family: 'Rubik', sans-serif;
+	font-weight: bolder;
+	font-size: 35px;
+	color: whitesmoke;
+}
+
+#top_navbar .navbar a {
+	font-family: 'Rubik', sans-serif;
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+	margin: 10px;
+}
