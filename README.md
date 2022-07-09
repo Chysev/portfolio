@@ -6,7 +6,7 @@
 
 #### 404_files ➜ 404.html
 
-### css ➜ contact.css, global.css, index.css and project.css
+#### css ➜ contact.css, global.css, index.css and project.css
 
 #### images ➜ 404.png, background.jpg, Layda.png and navbar.svg
 
