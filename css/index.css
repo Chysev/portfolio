@@ -307,6 +307,258 @@ footer span a:hover{
 }
 
 /* queries */
+@media (max-width: 912px) {
+
+    #introduction_containter {
+        display: flex;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        height: 100vh;
+    }
+    #introduction_container .info {
+        margin: 310px 132px;
+        padding: 0px 4px;
+        height: 200px;
+    }
+    #introduction_container .info p {
+        font-size: 34px;
+    }
+    
+    #introduction_container .info h1 {
+        font-size: 63px;
+        margin: 0px 0px 0px -3px;
+    }
+    #introduction_container .info h2 {
+        font-size: 34px;
+        margin: 5px 0px;
+    }
+        /* aboutme */
+    .aboutme_info {
+        padding: 10px;
+    }
+    .main_description {
+        margin: 40px 0px;
+        display: flex;
+    }
+    .main_description img {
+        height: 310px;
+        width: 310px;
+        margin: 0px 25px;
+    }
+    .description {
+        padding: 20px;
+		width: 360px;
+        margin: 0px 0px;
+    }
+
+    .description h1, .description p, .title h1 {
+        font-family: 'Ubuntu', sans-serif;
+        padding: 5px;
+    }
+
+    .description h1 {
+	    font-size: 30px;
+	    font-weight: 600;
+    }
+
+   .description p {
+	    text-align: justify;
+	    font-size: 20px;
+    }
+        /* myskills */
+	.grp-card-skills {
+		display: grid;
+	}
+	.card-skills {
+		width: 400px;
+		margin: 15px 0px;
+	}
+
+    .grp-card-social {
+        display: grid;
+    }
+    .card-social {
+        width: 400px; 
+        margin: 15px 0px;
+    }
+}
+@media (max-width: 820px) {
+    #introduction_containter {
+        display: flex;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        height: 100vh;
+    }
+    #introduction_container .info {
+        margin: 180px 100px;
+        padding: 0px 4px;
+        height: 200px;
+    }
+    #introduction_container .info p {
+        font-size: 27px;
+    }
+    
+    #introduction_container .info h1 {
+        font-size: 53px;
+        margin: 0px 0px 0px -3px;
+    }
+    #introduction_container .info h2 {
+        font-size: 27px;
+        margin: 5px 0px;
+    }
+        /* aboutme */
+    .aboutme_info {
+        padding: 10px;
+    }
+    .main_description {
+        margin: 40px 0px;
+        display: flex;
+    }
+    .main_description img {
+        height: 310px;
+        width: 310px;
+        margin: 0px 25px;
+    }
+    .description {
+        padding: 20px;
+		width: 360px;
+        margin: 0px 0px;
+    }
+
+    .description h1, .description p, .title h1 {
+        font-family: 'Ubuntu', sans-serif;
+        padding: 5px;
+    }
+
+    .description h1 {
+	    font-size: 30px;
+	    font-weight: 600;
+    }
+
+   .description p {
+	    text-align: justify;
+	    font-size: 20px;
+    }
+        /* myskills */
+	.grp-card-skills {
+		display: grid;
+	}
+	.card-skills {
+		width: 400px;
+		margin: 15px 0px;
+	}
+
+    .grp-card-social {
+        display: grid;
+    }
+    .card-social {
+        width: 400px; 
+        margin: 15px 0px;
+    }
+}
+@media (max-width: 768px) {
+     /* navigation */
+    .primary-navigation  {
+        position: fixed;
+        inset: 0 0 0 30%;
+        background: steelblue;
+        background: hsl(0 0% 100% / 0.1);;
+        backdrop-filter: blur(1rem);
+        z-index: 1000;
+        transform: translateX(100%);
+        transition: 200ms ease;
+    }
+    .primary-navigation[data-visible="true"] {
+        transform: translateX(0%);
+    }
+    .nav-controler {
+        aspect-ratio: 1;
+        width: 2.5rem;
+        z-index: 9999;
+        background: url(../images/navbar.svg);
+        background-repeat: no-repeat;
+        border: 0;
+        margin: 0px 0px 0px 120px;
+        display: block;
+    }
+    #navigation .primary-navigation .secondary-navigation {
+        position: fixed;
+        flex-direction: column;
+        padding: min(20vh, 10rem) 2em;
+    }
+    #navigation .primary-navigation .secondary-navigation li {
+        padding: 5px;
+        margin: 25px 20px;
+    }
+    #navigation .primary-navigation .secondary-navigation li a {
+        color: white;
+        font-weight: 900;
+    }
+    #introduction_containter {
+        display: flex;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        height: 100vh;
+    }
+    #introduction_container .info {
+        margin: 200px 119px;
+        padding: 0px 4px;
+        height: 200px;
+    }
+    #introduction_container .info p {
+        font-size: 27px;
+    }
+    
+    #introduction_container .info h1 {
+        font-size: 53px;
+        margin: 0px 0px 0px -3px;
+    }
+    #introduction_container .info h2 {
+        font-size: 27px;
+        margin: 5px 0px;
+    }
+        /* aboutme */
+    .aboutme_info {
+        padding: 10px;
+    }
+    .main_description {
+        margin: 40px 0px;
+        display: flex;
+    }
+    .main_description img {
+        height: 310px;
+        width: 310px;
+        margin: 0px 25px;
+    }
+    .description {
+        padding: 20px;
+		width: 360px;
+        margin: 0px 0px;
+    }
+        /* myskills */
+	.grp-card-skills {
+		display: grid;
+	}
+	.card-skills {
+		width: 350px;
+		margin: 15px 0px;
+	}
+
+    .grp-card-social {
+        display: grid;
+    }
+
+    .card-social {
+        width: 350px; 
+        margin: 15px 0px;
+    }
+} 
 
 @media (max-width: 560px) {
     /* navigation */
@@ -411,4 +663,44 @@ footer span a:hover{
         margin: 15px 0px;
     }
 
+}
+
+@media (max-width: 480px) {
+    
+    /* aboutme */
+    .aboutme_info {
+        padding: 7px;
+    }
+    .main_description {
+        margin: 0px 0px;
+        display: list-item;
+    }
+    .main_description img {
+        height: 310px;
+        width: 310px;
+        margin: 0px 25px;
+    }
+    .description {
+        padding: 20px;
+		width: 360px;
+        margin: 0px 0px;
+    }
+
+        /* myskills */
+	.grp-card-skills {
+		display: grid;
+	}
+	.card-skills {
+		width: 340px;
+		margin: 15px 0px;
+	}
+
+    .grp-card-social {
+        display: grid;
+    }
+
+    .card-social {
+        width: 350px; 
+        margin: 15px 0px;
+    }
 }
