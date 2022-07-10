@@ -384,6 +384,83 @@ footer span a:hover{
         margin: 15px 0px;
     }
 }
+@media (max-width: 992px) {
+      #introduction_containter {
+        display: flex;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        height: 100vh;
+    }
+    #introduction_container .info {
+        margin: 200px 155px;
+        padding: 0px 4px;
+        height: 200px;
+    }
+    #introduction_container .info p {
+        font-size: 27px;
+    }
+    
+    #introduction_container .info h1 {
+        font-size: 53px;
+        margin: 0px 0px 0px -3px;
+    }
+    #introduction_container .info h2 {
+        font-size: 27px;
+        margin: 5px 0px;
+    }
+        /* aboutme */
+    .aboutme_info {
+        padding: 10px;
+    }
+    .main_description {
+        margin: 40px 0px;
+        display: flex;
+    }
+    .main_description img {
+        height: 310px;
+        width: 310px;
+        margin: 0px 25px;
+    }
+    .description {
+        padding: 20px;
+		width: 360px;
+        margin: 0px 0px;
+    }
+
+    .description h1, .description p, .title h1 {
+        font-family: 'Ubuntu', sans-serif;
+        padding: 5px;
+    }
+
+    .description h1 {
+	    font-size: 30px;
+	    font-weight: 600;
+    }
+
+   .description p {
+	    text-align: justify;
+	    font-size: 20px;
+    }
+        /* myskills */
+	.grp-card-skills {
+		display: flex;
+	}
+	.card-skills {
+		width: 330px;
+        height: 330px;
+		margin: 15px 0px;
+	}
+
+    .grp-card-social {
+        display: flex;
+    }
+    .card-social {
+        width: 400px; 
+        margin: 15px 0px;
+    }  
+}
 @media (max-width: 820px) {
     #introduction_containter {
         display: flex;
@@ -559,7 +636,6 @@ footer span a:hover{
         margin: 15px 0px;
     }
 } 
-
 @media (max-width: 560px) {
     /* navigation */
     .primary-navigation  {
@@ -664,7 +740,6 @@ footer span a:hover{
     }
 
 }
-
 @media (max-width: 480px) {
     
     /* aboutme */
@@ -678,12 +753,12 @@ footer span a:hover{
     .main_description img {
         height: 310px;
         width: 310px;
-        margin: 0px 25px;
+        margin: 0px 75px;
     }
     .description {
         padding: 20px;
 		width: 360px;
-        margin: 0px 0px;
+        margin: 0px 50px;
     }
 
         /* myskills */
@@ -701,6 +776,119 @@ footer span a:hover{
 
     .card-social {
         width: 350px; 
+        margin: 15px 0px;
+    }
+}
+@media (max-width: 400px) {
+        /* aboutme */
+    .aboutme_info {
+        padding: 7px;
+    }
+    .main_description {
+        margin: 0px 0px;
+        display: list-item;
+    }
+    .main_description img {
+        height: 310px;
+        width: 310px;
+        margin: 0px 35px;
+    }
+    .description {
+        padding: 20px;
+		width: 350px;
+        margin: 0px 20px;
+    }
+
+        /* myskills */
+	.grp-card-skills {
+		display: grid;
+	}
+	.card-skills {
+		width: 340px;
+		margin: 15px 0px;
+	}
+
+    .grp-card-social {
+        display: grid;
+    }
+
+    .card-social {
+        width: 350px; 
+        margin: 15px 0px;
+    }
+}
+@media (max-width: 380px) {
+            /* aboutme */
+    .aboutme_info {
+        padding: 7px;
+    }
+    .main_description {
+        margin: 0px 0px;
+        display: list-item;
+    }
+    .main_description img {
+        height: 310px;
+        width: 310px;
+        margin: 0px 28px;
+    }
+    .description {
+        padding: 20px;
+		width: 350px;
+        margin: 0px 10px;
+    }
+
+        /* myskills */
+	.grp-card-skills {
+		display: grid;
+	}
+	.card-skills {
+		width: 340px;
+		margin: 15px 0px;
+	}
+
+    .grp-card-social {
+        display: grid;
+    }
+
+    .card-social {
+        width: 350px; 
+        margin: 15px 0px;
+    }
+}
+@media (max-width: 320px) {
+                /* aboutme */
+    .aboutme_info {
+        padding: 7px;
+    }
+    .main_description {
+        margin: 0px 0px;
+        display: list-item;
+    }
+    .main_description img {
+        height: 200px;
+        width: 200px;
+        margin: 0px 25px;
+    }
+    .description {
+        padding: 20px;
+		width: 300px;
+        margin: 0px 10px;
+    }
+
+        /* myskills */
+	.grp-card-skills {
+		display: grid;
+	}
+	.card-skills {
+		width: 240px;
+		margin: 15px 0px;
+	}
+
+    .grp-card-social {
+        display: grid;
+    }
+    .card-social {
+        width: 260px; 
         margin: 15px 0px;
     }
 }
