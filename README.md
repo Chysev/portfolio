@@ -21,13 +21,13 @@
 ## Files
 ## ├──
 
-discord-bot/
-├── node_modules
-├── config.json
-├── deploy-commands.js
-├── index.js
-├── package-lock.json
-└── package.json
+### discord-bot/
+### ├── node_modules
+### ├── config.json
+### ├── deploy-commands.js
+### ├── index.js
+### ├── package-lock.json
+### └── package.json
 
 
 #### README.md
