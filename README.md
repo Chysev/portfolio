@@ -2,6 +2,7 @@
 
 ## Developer: Chysev
 ### URL: https://portfolio.chysev.me/
+### NOTE: Im currently recreating my portfolio
 
 
 ## Files
