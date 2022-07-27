@@ -1,0 +1,30 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My Portfolio",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "build": "npm install",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Chysev",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "@types/nedb": "^1.8.12",
+    "@types/node": "^18.6.1",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "path": "^0.12.7",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "connect-livereload": "^0.6.1",
+    "livereload": "^0.9.3",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1"
+  }
+}

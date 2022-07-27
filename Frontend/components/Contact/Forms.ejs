@@ -1,0 +1,39 @@
+<content>
+    <div class="FormPage">
+        <div class="Form-container">
+            <form data-aos="fade-down" action="http://localhost:3001/contact" method="post">
+
+                <h1 data-aos="fade-down">Hello!</h1>
+                <h2>
+                    DATE: <%= Date.toLocaleDateString() %>
+                </h2>
+                <div>
+                    <input data-aos="fade-right" type="FirstName" id="FirstName" name="FirstName"
+                        placeholder="First Name" required>
+                </div>
+
+                <div>
+                    <input data-aos="fade-left" type="LastName" id="LastName" name="LastName" placeholder="Last Name"
+                        required>
+                </div>
+
+                <div>
+                    <input data-aos="fade-right" type="email" id="email" name="email" placeholder="example@example.com"
+                        required>
+                </div>
+
+                <div>
+                    <input data-aos="fade-left" type="date" id="date" name="date" required>
+                </div>
+
+                <div>
+                    <textarea required data-aos="fade-down" name="message" id="message" cols="30"
+                        placeholder="Hello my gorgeous friends in the internet" rows="10"></textarea>
+                </div>
+
+                <button data-aos="fade-down" type="submit">Submit</button>
+
+            </form>
+        </div>
+    </div>
+</content>
