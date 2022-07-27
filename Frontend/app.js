@@ -28,16 +28,22 @@ app.use(express.static("public/layouts"));
 app.use(express.static("global"));
 app.use(express.urlencoded({ extended: false }));
 
+app.use(logger);
+
 // ROUTES
 app.get("/", (req, res) => {
+  console.log(`Home Page`);
+  console.log("Home Page");
   res.render("index.ejs");
 });
 
 app.get("/projects", (req, res) => {
+  console.log("Project Page");
   res.render("projects.ejs");
 });
 
 app.get("/contact", (req, res) => {
+  console.log("Contact Page");
   res.render("contact.ejs", { Date: new Date() });
 });
 
@@ -45,6 +51,10 @@ app.get("/contact", (req, res) => {
 
 app.post("http://localhost:3001/contact");
 
+function logger(req, res, next) {
+  console.log("Logs ready");
+  next();
+}
 const PORT = process.env.PORT;
 
 app.listen(process.env.PORT, () =>
