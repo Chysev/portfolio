@@ -9,8 +9,6 @@
     <title>John Layda</title>
     <!-- CSS -->
     <link rel="stylesheet" href="aos.css" />
-    <link rel="stylesheet" href="navigation.css">
-    <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -24,19 +22,14 @@
 </head>
 
 <body>
-    <!-- Header -->
-    <%- include('../components/Home/Header.ejs') %>
-        <!-- Main -->
-        <main>
-            <%- include("../components/Home/Introduction.ejs") %>
-                <%- include("../components/Home/AboutMe.ejs") %>
-                    <%- include("../components/Home/MySkills.ejs") %>
-                        <%- include("../components/Home/SkillsPercent.ejs") %>
-                            <%- include("../components/Home/Social.ejs") %>
-
-                                <!-- Footer -->
-                                <%- include("../components/Home/Footer.ejs") %>
-        </main>
+    <!-- Main -->
+    <main>
+        <%- include("../components/Home/Introduction.ejs") %>
+            <%- include("../components/Home/AboutMe.ejs") %>
+                <%- include("../components/Home/MySkills.ejs") %>
+                    <%- include("../components/Home/SkillsPercent.ejs") %>
+                        <%- include("../components/Home/Social.ejs") %>
+    </main>
 
 </body>
 

@@ -1,3 +1,4 @@
+import expressLayouts from "express-ejs-layouts";
 import express from "express";
 import dotenv from "dotenv";
 import path from "path";
@@ -14,9 +15,13 @@ const liveServer = livereload.createServer();
 liveServer.watch(Public);
 app.use(connectLiveReload());
 
-// STATICS
+// ENGINE
 app.set("view engine", "ejs");
 app.set("views", "pages");
+app.set("layout", "main/layout.ejs");
+app.use(expressLayouts);
+
+// STATICS FILES
 app.use(express.static("public"));
 app.use(express.static("aos"));
 app.use(express.static("public/assets"));
@@ -28,6 +33,7 @@ app.use(express.static("public/layouts"));
 app.use(express.static("global"));
 app.use(express.urlencoded({ extended: false }));
 
+// Middleware Logs
 app.use(logger);
 
 // ROUTES
@@ -51,6 +57,7 @@ app.get("/contact", (req, res) => {
 
 app.post("http://localhost:3001/contact");
 
+// Middleware
 function logger(req, res, next) {
   console.log("Logs ready");
   next();
