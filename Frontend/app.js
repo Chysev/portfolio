@@ -18,6 +18,7 @@ app.use(connectLiveReload());
 app.set("view engine", "ejs");
 app.set("views", "pages");
 app.use(express.static("public"));
+app.use(express.static("aos"));
 app.use(express.static("public/assets"));
 app.use(express.static("public/assets/icons"));
 app.use(express.static("public/assets/images"));
