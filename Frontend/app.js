@@ -18,7 +18,7 @@ app.use(connectLiveReload());
 // ENGINE
 app.set("view engine", "ejs");
 app.set("views", "pages");
-app.set("layout", "main/layout.ejs");
+app.set("layout", "main/App.ejs");
 app.use(expressLayouts);
 
 // STATICS FILES
@@ -54,7 +54,6 @@ app.get("/contact", (req, res) => {
 });
 
 // DATABASE & POST ROUTES
-
 app.post("http://localhost:3001/contact");
 
 // Middleware
