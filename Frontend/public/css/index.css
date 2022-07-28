@@ -143,108 +143,99 @@
   filter: contrast(85%);
 }
 
-.percent-container {
-  display: flex;
+#percent-container {
   justify-content: space-around;
-  align-items: center;
-  width: 70rem;
-  height: 400px;
-  margin: 3.4rem 25rem;
 }
 
-.percent-container h1 {
+#percent-container h1 {
   font-family: "Ubuntu", sans-serif;
 }
 
-.bars {
-  display: flex;
-  margin: 7vh 0vh;
+#bars {
   flex-direction: column;
-  width: 40%;
-  align-items: center;
 }
-.percentage-95 {
+#percentage-95 {
   margin: 6px 40vh;
 }
-.percentage-90 {
+#percentage-90 {
   margin: 6px 41vh;
 }
-.percentage-85 {
+#percentage-85 {
   margin: 6px 34vh;
 }
-.percentage-85-2 {
+#percentage-85-2 {
   margin: 6px 37vh;
 }
-.percentage-80 {
+#percentage-80 {
   margin: 6px 34vh;
 }
-.percentage-50 {
+#percentage-50 {
   margin: 6px 37.1vh;
 }
-.percentage-30 {
+#percentage-30 {
   margin: 6px 43.3vh;
 }
-.text-line {
+#text-line {
   display: flex;
   font-family: "Courier New", Courier, monospace;
   width: 100%;
   align-items: center;
 }
-.line {
+#line {
   width: 100%;
   height: 8px;
   background-color: #d3d3d3;
   border-radius: 12px;
 }
 
-.line-html {
+#line-html {
   width: 95%;
   height: 8px;
   background-color: red;
   border-radius: 12px;
 }
 
-.line-ejs {
+#line-ejs {
   width: 90%;
   height: 8px;
   background-color: red;
   border-radius: 12px;
 }
-.line-css {
+#line-css {
   width: 90%;
   height: 8px;
   background-color: red;
   border-radius: 12px;
 }
-.line-javascript {
+#line-javascript {
   width: 85%;
   height: 8px;
   background-color: red;
   border-radius: 12px;
 }
 
-.line-express {
+#line-express {
   width: 85%;
   height: 8px;
   background-color: red;
   border-radius: 12px;
 }
 
-.line-https {
+#line-https {
   width: 80%;
   height: 8px;
   background-color: red;
   border-radius: 12px;
 }
 
-.line-python {
+#line-python {
   width: 50%;
   height: 8px;
   background-color: red;
   border-radius: 12px;
 }
 
-.line-C {
+#line-C {
   width: 30%;
   height: 8px;
   background-color: red;

@@ -16,6 +16,8 @@ const Socialbtn = document.getElementById("Social");
 const myskills = document.getElementById("myskills");
 const grp_card_skills = document.getElementById("grp-card-skills");
 const myskillspercent = document.getElementById("myskills-percent");
+const percentcontainer = document.getElementById("percent-container");
+const bard = document.getElementById("bars");
 const social = document.getElementById("social");
 
 introduction.style.backgroundColor = "#121212";
@@ -79,6 +81,17 @@ grp_card_skills.style.alignItems = "center";
 myskillspercent.style.height = "55vh";
 myskillspercent.style.display = "flex";
 myskillspercent.style.backgroundColor = "whitesmoke";
+
+percentcontainer.style.display = "flex";
+percentcontainer.style.alignItems = "center";
+percentcontainer.style.width = "70rem";
+percentcontainer.style.height = "400px";
+percentcontainer.style.margin = "3.4rem 25rem";
+
+bars.style.display = "flex";
+bars.style.margin = "7vh 0vh";
+bars.style.width = "40%";
+bars.style.alignItems = "center";
 
 social.style.backgroundColor = "#121212";
 social.style.height = "60vh";
