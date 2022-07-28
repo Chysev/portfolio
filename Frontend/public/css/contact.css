@@ -6,14 +6,11 @@
   --secondary: #03dac6;
 }
 
-.FormPage {
-  display: flex;
-  background-color: var(--background);
+#FormPage {
   filter: contrast(90%);
-  height: 100vh;
 }
 
-.Form-container {
+#Form-container {
   display: flex;
   color: whitesmoke;
   margin: 20rem 44.4rem;

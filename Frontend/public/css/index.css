@@ -9,125 +9,92 @@
 
 /* Introduction */
 
-.introduction {
-  height: 100vh;
-  display: flex;
-  background-color: var(--background);
+#introduction {
   filter: contrast(95%);
 }
 
-.container-introduction {
-  color: whitesmoke;
-  margin: 20rem 26rem;
+#container_introduction {
   font-family: "Ubuntu", sans-serif;
 }
 
-.container-introduction p {
+#container_introduction p {
   font-size: 27px;
   margin: 8px 2px;
 }
 
-.container-introduction h1 {
+#container_introduction h1 {
   font-size: 75px;
   margin: 8px 2px;
 }
 
-.container-introduction h2 {
+#container_introduction h2 {
   font-size: 40px;
   margin: 8px 2px;
 }
 .typewrite {
   color: crimson;
 }
-.aboutme-btn {
+#aboutme-btn {
   background-color: crimson;
   border-color: crimson;
-  border-radius: 6px;
-  border-style: solid;
-  border-width: 0.1px;
   display: inline-block;
-  color: #ffffff;
-  font-size: 25px;
-  margin: 20px 0px 0px;
-  padding: 12px 36px;
   cursor: pointer;
 }
 
-.aboutme-btn:hover {
+#aboutme-btn:hover {
   transition: all 0.3s ease;
   background-color: transparent;
   color: crimson;
 }
+
 /* About Me */
 #aboutme {
-  height: 65vh;
-  display: flex;
-  background-color: whitesmoke;
   filter: contrast(85%);
 }
-.aboutme-title {
+#aboutme-title {
   text-align: center;
 }
-.container-aboutme {
-  display: flex;
-  height: 50vh;
-  width: 70rem;
-  margin: 7.5vh 400px;
+#container-aboutme {
   justify-content: space-between;
-  align-items: center;
 }
 
-.container-aboutme img {
+#container-aboutme img {
   height: 400px;
   width: 400px;
 }
 
-.container-aboutme-text {
-  width: 65vh;
+#container-aboutme-text {
   font-family: "Ubuntu", sans-serif;
-  color: #121212;
 }
 
-.container-aboutme-text h1 {
+#container-aboutme-text h1 {
   font-size: 30px;
   font-weight: 800;
 }
-.container-aboutme-text p {
+#container-aboutme-text p {
   font-size: 20px;
   text-align: justify;
   font-weight: lighter;
 }
 
-.container-aboutme-tools {
-  margin: 10px 0px;
-}
-
-.container-aboutme-tools h1 {
+#container-aboutme-tools h1 {
   font-size: 20px;
 }
-.container-aboutme-tools img {
+#container-aboutme-tools img {
   height: 25px;
   width: 25px;
   margin: 10px 2px;
 }
 
-.MySkills,
-.Social {
-  display: inline-block;
-  background-color: crimson;
-  border-color: crimson;
-  color: #fff;
-  font-size: 20px;
-  font-weight: 500;
-  padding: 10px 30px;
-  border-radius: 6px;
+#MySkills,
+#Social {
   border: 2px solid crimson;
   transition: all 0.3s ease;
   cursor: pointer;
 }
 
-.MySkills:hover,
-.Social:hover {
+#MySkills:hover,
+#Social:hover {
   transition: all 0.3s ease;
   background-color: transparent;
   color: crimson;
@@ -135,24 +102,11 @@
 
 /* My Skills */
 
-#myskills {
-  background-color: var(--background);
-  height: 70vh;
+#container-myskills {
   display: flex;
 }
 
-.container-myskills {
-  display: flex;
-}
-
-.grp-card-skills {
-  display: flex;
-  color: white;
-  height: 40vh;
-  margin: 15vh 12.4vh;
-  align-items: center;
-}
-.card {
+#card-skills {
   height: 300px;
   width: 400px;
   margin: 0px 5rem;
@@ -161,34 +115,32 @@
   border-radius: 12px;
 }
 
-.card i {
+#card-skills i {
   font-size: 75px;
   margin: 15px 154px;
   color: crimson;
 }
-.card h1,
-.card h2,
-.card h3 {
+#card-skills h1,
+#card-skills h2,
+#card-skills h3 {
   margin: 10px 50px;
   font-weight: 700;
   font-family: "Ubuntu", sans-serif;
   text-align: center;
 }
 
-.card h2,
-.card h3 {
+#card-skills h2,
+#card-skills h3 {
   font-size: 24px;
 }
 
-.card h1 {
+#card-skills h1 {
   font-size: 37px;
 }
 /* My Skills Percentages */
 
-.myskills-percent {
-  height: 55vh;
-  display: flex;
-  background-color: whitesmoke;
+#myskills-percent {
+  filter: contrast(85%);
 }
 
 .percent-container {
@@ -300,12 +252,6 @@
 }
 
 /* Social */
-
-#social {
-  background-color: var(--background);
-  height: 60vh;
-  display: flex;
-}
 
 .container-social {
   display: flex;
