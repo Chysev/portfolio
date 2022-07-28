@@ -29,6 +29,7 @@ app.use(express.static("public/assets/icons"));
 app.use(express.static("public/assets/images"));
 app.use(express.static("public/css"));
 app.use(express.static("public/css/components-css"));
+app.use(express.static("public/css/mediaQueries"));
 app.use(express.static("public/layouts"));
 app.use(express.static("global"));
 app.use(express.urlencoded({ extended: false }));
