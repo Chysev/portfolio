@@ -21,11 +21,13 @@ const bard = document.getElementById("bars");
 const social = document.getElementById("social");
 
 introduction.style.backgroundColor = "#121212";
+introduction.style.filter = "contrast(95%)";
 introduction.style.height = "100vh";
 introduction.style.display = "flex";
 
 container.style.color = "white";
 container.style.margin = "20rem 26rem";
+container.style.fontFamily = "Ubuntu, sans-serif";
 
 aboutmebtn.style.margin = "20px 3px 0px";
 aboutmebtn.style.padding = "12px 36px";
@@ -51,18 +53,14 @@ container_aboutme_text.style.color = "#121212";
 container_aboutme_tools.style.margin = "10px 0px";
 
 Myskillsbtn.style.display = "inline-block";
-Myskillsbtn.style.backgroundColor = "crimson";
 Myskillsbtn.style.borderColor = "crimson";
-Myskillsbtn.style.color = "#fff";
 Myskillsbtn.style.fontSize = "20px";
 Myskillsbtn.style.fontWeight = "500";
 Myskillsbtn.style.padding = " 10px 30px";
 Myskillsbtn.style.borderRadius = " 6px";
 
 Socialbtn.style.display = "inline-block";
-Socialbtn.style.backgroundColor = "crimson";
 Socialbtn.style.borderColor = "crimson";
-Socialbtn.style.color = "#fff";
 Socialbtn.style.fontSize = "20px";
 Socialbtn.style.fontWeight = "500";
 Socialbtn.style.padding = " 10px 30px";
@@ -96,13 +94,3 @@ bars.style.alignItems = "center";
 social.style.backgroundColor = "#121212";
 social.style.height = "60vh";
 social.style.display = "flex";
-
-// Project Page
-
-// Contact Page
-
-const FormPage = document.getElementById("FormPage");
-
-FormPage.style.display = "flex";
-FormPage.style.backgroundColor = "#121212";
-FormPage.style.height = "100vh";

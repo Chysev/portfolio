@@ -9,14 +9,6 @@
 
 /* Introduction */
 
-#introduction {
-  filter: contrast(95%);
-}
-
-#container_introduction {
-  font-family: "Ubuntu", sans-serif;
-}
-
 #container_introduction p {
   font-size: 27px;
   margin: 8px 2px;
@@ -88,8 +80,10 @@
 
 #MySkills,
 #Social {
+  background-color: crimson;
   border: 2px solid crimson;
   transition: all 0.3s ease;
+  color: white;
   cursor: pointer;
 }
 

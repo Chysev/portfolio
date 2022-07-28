@@ -5,20 +5,6 @@
   --primary-variant: #3700b3;
   --secondary: #03dac6;
 }
-
-#FormPage {
-  filter: contrast(90%);
-}
-
-#Form-container {
-  display: flex;
-  color: whitesmoke;
-  margin: 20rem 44.4rem;
-  height: 300px;
-  width: 500px;
-  align-items: center;
-}
-
 form {
   margin: 0px 8px;
 }
@@ -40,7 +26,6 @@ input {
   font-size: 18px;
   border-radius: 7.2px;
 }
-
 textarea {
   width: 30rem;
   border-radius: 7.2px;
@@ -51,17 +36,7 @@ textarea {
   font-family: "Ubuntu", sans-serif;
 }
 button {
-  height: 2.8rem;
-  border-radius: 7.2px;
   background-color: #dc143c;
-  border-color: #dc143c;
-  border-style: solid;
-  width: 100px;
-  cursor: pointer;
-  color: white;
-  font-size: 15px;
-  font-weight: 900;
-  margin: 10px 12rem;
 }
 
 button:hover {

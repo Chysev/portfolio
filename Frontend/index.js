@@ -31,6 +31,7 @@ app.use(express.static("public/css"));
 app.use(express.static("public/css/components-css"));
 app.use(express.static("public/css/mediaQueries"));
 app.use(express.static("public/layouts"));
+app.use(express.static("public/layouts/stylesjs"));
 app.use(express.static("global"));
 app.use(express.urlencoded({ extended: false }));
 
@@ -62,6 +63,7 @@ function logger(req, res, next) {
   console.log("Logs ready");
   next();
 }
+
 const PORT = process.env.PORT;
 
 app.listen(process.env.PORT, () =>
