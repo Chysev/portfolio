@@ -2,6 +2,8 @@
 const Forms = document.getElementById("FormPage");
 const Forms_container = document.getElementById("Form-container");
 const submitbutton = document.getElementById("submit");
+
+// FormPage
 Forms.style.backgroundColor = "#121212";
 Forms.style.height = "100vh";
 Forms.style.display = "flex";
@@ -14,6 +16,7 @@ Forms_container.style.height = "300px";
 Forms_container.style.width = "500px";
 Forms_container.style.alignItems = "center";
 
+// Form button
 submitbutton.style.height = "2.8rem";
 submitbutton.style.borderRadius = "7.2px";
 submitbutton.style.borderColor = "#dc143c";

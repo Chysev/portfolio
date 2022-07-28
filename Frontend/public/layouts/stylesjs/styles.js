@@ -20,6 +20,7 @@ const percentcontainer = document.getElementById("percent-container");
 const bard = document.getElementById("bars");
 const social = document.getElementById("social");
 
+// Introduction
 introduction.style.backgroundColor = "#121212";
 introduction.style.filter = "contrast(95%)";
 introduction.style.height = "100vh";
@@ -37,6 +38,7 @@ aboutmebtn.style.borderWidth = "0.1px";
 aboutmebtn.style.borderStyle = "solid";
 aboutmebtn.style.borderRadius = "6px";
 
+// AboutMe
 aboutme.style.backgroundColor = "whitesmoke";
 aboutme.style.height = "65vh";
 aboutme.style.display = "flex";
@@ -66,6 +68,7 @@ Socialbtn.style.fontWeight = "500";
 Socialbtn.style.padding = " 10px 30px";
 Socialbtn.style.borderRadius = " 6px";
 
+//MySkills
 myskills.style.height = "70vh";
 myskills.style.display = "flex";
 myskills.style.backgroundColor = "#121212";
@@ -76,6 +79,7 @@ grp_card_skills.style.height = "40vh";
 grp_card_skills.style.margin = "15vh 12.4vh";
 grp_card_skills.style.alignItems = "center";
 
+//MySkills Percent
 myskillspercent.style.height = "55vh";
 myskillspercent.style.display = "flex";
 myskillspercent.style.backgroundColor = "whitesmoke";
@@ -91,6 +95,7 @@ bars.style.margin = "7vh 0vh";
 bars.style.width = "40%";
 bars.style.alignItems = "center";
 
+// Social
 social.style.backgroundColor = "#121212";
 social.style.height = "60vh";
 social.style.display = "flex";
