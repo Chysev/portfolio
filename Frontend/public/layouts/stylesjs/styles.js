@@ -79,7 +79,7 @@ grp_card_skills.style.height = "40vh";
 grp_card_skills.style.margin = "15vh 12.4vh";
 grp_card_skills.style.alignItems = "center";
 
-//MySkills Percent
+//MySkills Percentages
 myskillspercent.style.height = "55vh";
 myskillspercent.style.display = "flex";
 myskillspercent.style.backgroundColor = "whitesmoke";

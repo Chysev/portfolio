@@ -39,7 +39,7 @@
   color: crimson;
 }
 
-/* About Me */
+/* AboutMe */
 #aboutme {
   filter: contrast(85%);
 }
@@ -94,7 +94,7 @@
   color: crimson;
 }
 
-/* My Skills */
+/* MySkills */
 
 #container-myskills {
   display: flex;
@@ -131,7 +131,7 @@
 #card-skills h1 {
   font-size: 37px;
 }
-/* My Skills Percentages */
+/* MySkills Percentages */
 
 #myskills-percent {
   filter: contrast(85%);
