@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "My Portfolio",
   "type": "module",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "build": "npm install",
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "Chysev",
   "license": "ISC",

@@ -18,7 +18,7 @@ app.use(connectLiveReload());
 // ENGINE
 app.set("view engine", "ejs");
 app.set("views", "pages");
-app.set("layout", "main/App.ejs");
+app.set("layout", "App/App.ejs");
 app.use(expressLayouts);
 
 // STATICS FILES
