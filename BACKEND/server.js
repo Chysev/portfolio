@@ -12,8 +12,8 @@ const api = new database({
   autoload: true,
 });
 
-app.post("/api", (req, res) => {
-  const contact = [
+app.post("/api", async (req, res) => {
+  const contact = await [
     {
       firstname: req.body.firstname,
       lastname: req.body.lastname,
