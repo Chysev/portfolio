@@ -3,9 +3,9 @@ Setup:
 Express : Done
 Routing: Done
 
-Components Setup: Done
-Global Setup: Done
-Pages Setup: Done
+Components Setup/ : Done
+Global Setup/ : Done
+Pages Setup/ : Done
 Public Setup/ : Done
 
 TODO: 
