@@ -1,0 +1,50 @@
+FRONTEND
+Setup: 
+Express : Done
+Routing: Done
+
+Components Setup: Done
+Global Setup: Done
+Pages Setup: Done
+Public Setup/ : Done
+
+TODO: 
+Pages/:
+App.ejs [
+    Header & Navigation
+    Footer
+]
+
+Components Home/:
+1_Page.ejs -> Introduction
+2_Page.ejs -> About Me
+3_Page.ejs -> My Skills
+4_Page.ejs -> My Skills Percent 
+5_Page.ejs -> Social
+Components Projects/ :
+1_Page.ejs -> Open Source Project
+
+CSS Navigation/ -> Styling & Functions
+CSS Footer/ -> Styling
+CSS Home/ -> Styling
+CSS Project/ -> Styling
+CSS Contact/ -> Styling
+
+global/ :
+global.js -> Scroll Animation
+
+CSS/MediaQueries/:
+Queries -> Mobile to Desktop/Responsive
+
+COMPLETED:
+Components/: 
+Contact
+1_Page.ejs -> Forms/Api
+
+
+BACKEND
+Express: Done
+Database: Done
+Post route: Done
+
+/: Database is fully setup

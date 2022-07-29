@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "MyPortfolio",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "build": "npm install",
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "Format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chysev/portfolio.git"
+  },
+  "author": "Chysev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chysev/portfolio/issues"
+  },
+  "homepage": "https://github.com/Chysev/portfolio#readme",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "@types/nedb": "^1.8.12",
+    "express": "^4.18.1",
+    "nedb": "^1.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1"
+  }
+}

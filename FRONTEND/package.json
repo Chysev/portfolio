@@ -1,0 +1,37 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "MyPortfolio",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "Format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chysev/portfolio.git"
+  },
+  "author": "Chysev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chysev/portfolio/issues"
+  },
+  "homepage": "https://github.com/Chysev/portfolio#readme",
+  "dependencies": {
+    "@types/ejs": "^3.1.1",
+    "@types/express": "^4.17.13",
+    "@types/express-ejs-layouts": "^2.5.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-ejs-layouts": "^2.5.1"
+  },
+  "devDependencies": {
+    "connect-livereload": "^0.6.1",
+    "livereload": "^0.9.3",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1"
+  }
+}
