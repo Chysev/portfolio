@@ -1,11 +1,13 @@
 var navigation = document.createElement("style");
+
 navigation.textContent = `
+
 /* navigation */
 #navigation {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 8vh;
+  padding: 31px 0px;
   position: fixed;
   width: 100%;
   z-index: 999;
@@ -15,7 +17,7 @@ navigation.textContent = `
 #navigation h1,
 .secondary-navigation a {
   font-family: "Rubik", sans-serif;
-  color: #121212;
+  color: whitesmoke;
   text-decoration: none;
 }
 
@@ -68,7 +70,7 @@ navigation.textContent = `
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 10vh;
+    height: 12vh;
     position: fixed;
     width: 100%;
     z-index: 999;
@@ -107,7 +109,7 @@ navigation.textContent = `
     margin: 25px 20px;
   }
   #navigation .primary-navigation .secondary-navigation li a {
-    color: #121212;
+    color: #fffff;
     font-weight: 900;
   }
 }

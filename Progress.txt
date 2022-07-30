@@ -11,10 +11,11 @@ Public Setup/ : Done
 TODO: 
 
 
-STYLING Footer/ -> Styling
-STYLING Home/ -> Styling
+
+STYLING Home/ -> Styling 20% Done
 STYLING Project/ -> Styling
 STYLING Contact/ -> Styling
+STYLING Footer/ -> Styling
 
 global/ :
 global.js -> Scroll Animation

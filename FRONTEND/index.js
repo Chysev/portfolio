@@ -27,7 +27,6 @@ app.use(express.static("public/assets/icons"));
 app.use(express.static("public/assets/images"));
 app.use(express.static("public/css"));
 app.use(express.static("public/css/components-css"));
-app.use(express.static("public/css/MediaQueries"));
 app.use(express.static("public/layouts"));
 
 // ROUTES

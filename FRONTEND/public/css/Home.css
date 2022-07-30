@@ -1,0 +1,322 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+#introduction {
+  display: flex;
+  height: 100vh;
+  background-color: #121212;
+}
+
+#introduction .container {
+  color: whitesmoke;
+  margin: auto 24.4rem;
+  font-family: "Ubuntu", sans-serif;
+}
+#introduction .container p {
+  font-size: 27px;
+  margin: 7px 0px;
+}
+#introduction .container h1 {
+  font-size: 75px;
+  margin: 7px 0px;
+}
+
+#introduction .container h2 {
+  font-size: 38px;
+  margin: 7px 0px;
+}
+
+.aboutme-btn {
+  background-color: #dc143c;
+  border-color: #dc143c;
+  margin: 20px 0px 0px;
+  font-size: 25px;
+  color: #f7ccd5;
+  display: inline-block;
+  border-radius: 6px;
+  padding: 12px 36px;
+}
+
+@media (max-width: 320px) {
+  #introduction {
+    display: flex;
+    height: 110vh;
+    background-color: #121212;
+  }
+  #introduction .container {
+    color: whitesmoke;
+    margin: auto;
+    font-family: "Ubuntu", sans-serif;
+  }
+  #introduction .container p {
+    font-size: 24px;
+    margin: 7px 0px;
+  }
+  #introduction .container h1 {
+    font-size: 55px;
+    margin: 7px 0px;
+  }
+
+  #introduction .container h2 {
+    font-size: 28px;
+    margin: 7px 0px;
+  }
+}
+
+@media (max-width: 375px) {
+  #introduction {
+    display: flex;
+    height: 100vh;
+    background-color: #121212;
+  }
+  #introduction .container {
+    color: whitesmoke;
+    margin: auto;
+    font-family: "Ubuntu", sans-serif;
+  }
+  #introduction .container p {
+    font-size: 24px;
+    margin: 7px 0px;
+  }
+  #introduction .container h1 {
+    font-size: 55px;
+    margin: 7px 0px;
+  }
+
+  #introduction .container h2 {
+    font-size: 28px;
+    margin: 7px 0px;
+  }
+}
+
+@media (max-width: 420px) {
+  #introduction {
+    display: flex;
+    height: 100vh;
+    background-color: #121212;
+  }
+  #introduction .container {
+    color: whitesmoke;
+    margin: auto;
+    font-family: "Ubuntu", sans-serif;
+  }
+  #introduction .container p {
+    font-size: 26px;
+    margin: 7px 0px;
+  }
+  #introduction .container h1 {
+    font-size: 57px;
+    margin: 7px 0px;
+  }
+
+  #introduction .container h2 {
+    font-size: 30px;
+    margin: 7px 0px;
+  }
+}
+
+@media (max-width: 480px) {
+  #introduction {
+    display: flex;
+    height: 100vh;
+    background-color: #121212;
+  }
+  #introduction .container {
+    color: whitesmoke;
+    margin: auto 3.7rem;
+    font-family: "Ubuntu", sans-serif;
+  }
+  #introduction .container p {
+    font-size: 26px;
+    margin: 7px 0px;
+  }
+  #introduction .container h1 {
+    font-size: 57px;
+    margin: 7px 0px;
+  }
+
+  #introduction .container h2 {
+    font-size: 30px;
+    margin: 7px 0px;
+  }
+}
+
+@media (max-width: 560px) {
+  #introduction {
+    display: flex;
+    height: 100vh;
+    background-color: #121212;
+  }
+  #introduction .container {
+    color: whitesmoke;
+    margin: auto 5rem;
+    font-family: "Ubuntu", sans-serif;
+  }
+  #introduction .container p {
+    font-size: 26px;
+    margin: 7px 0px;
+  }
+  #introduction .container h1 {
+    font-size: 57px;
+    margin: 7px 0px;
+  }
+
+  #introduction .container h2 {
+    font-size: 30px;
+    margin: 7px 0px;
+  }
+}
+
+@media (max-width: 640px) {
+  #introduction {
+    display: flex;
+    height: 100vh;
+    background-color: #121212;
+  }
+  #introduction .container {
+    color: whitesmoke;
+    margin: auto 6.3rem;
+    font-family: "Ubuntu", sans-serif;
+  }
+  #introduction .container p {
+    font-size: 26px;
+    margin: 7px 0px;
+  }
+  #introduction .container h1 {
+    font-size: 57px;
+    margin: 7px 0px;
+  }
+
+  #introduction .container h2 {
+    font-size: 30px;
+    margin: 7px 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  #introduction {
+    display: flex;
+    height: 100vh;
+    background-color: #121212;
+  }
+  #introduction .container {
+    color: whitesmoke;
+    margin: auto 8.2rem;
+    font-family: "Ubuntu", sans-serif;
+  }
+  #introduction .container p {
+    font-size: 26px;
+    margin: 7px 0px;
+  }
+  #introduction .container h1 {
+    font-size: 57px;
+    margin: 7px 0px;
+  }
+
+  #introduction .container h2 {
+    font-size: 30px;
+    margin: 7px 0px;
+  }
+}
+
+@media (max-width: 992px) {
+  #introduction {
+    display: flex;
+    height: 100vh;
+    background-color: #121212;
+  }
+  #introduction .container {
+    color: whitesmoke;
+    margin: auto 10.5rem;
+    font-family: "Ubuntu", sans-serif;
+  }
+  #introduction .container p {
+    font-size: 26px;
+    margin: 7px 0px;
+  }
+  #introduction .container h1 {
+    font-size: 57px;
+    margin: 7px 0px;
+  }
+
+  #introduction .container h2 {
+    font-size: 30px;
+    margin: 7px 0px;
+  }
+}
+@media (max-width: 1024px) {
+  #introduction {
+    display: flex;
+    height: 100vh;
+    background-color: #121212;
+  }
+  #introduction .container {
+    color: whitesmoke;
+    margin: auto 10.9rem;
+    font-family: "Ubuntu", sans-serif;
+  }
+  #introduction .container p {
+    font-size: 26px;
+    margin: 7px 0px;
+  }
+  #introduction .container h1 {
+    font-size: 57px;
+    margin: 7px 0px;
+  }
+
+  #introduction .container h2 {
+    font-size: 30px;
+    margin: 7px 0px;
+  }
+}
+
+@media (max-width: 1280px) {
+  #introduction {
+    display: flex;
+    height: 100vh;
+    background-color: #121212;
+  }
+  #introduction .container {
+    color: whitesmoke;
+    margin: auto 15rem;
+    font-family: "Ubuntu", sans-serif;
+  }
+  #introduction .container p {
+    font-size: 26px;
+    margin: 7px 0px;
+  }
+  #introduction .container h1 {
+    font-size: 57px;
+    margin: 7px 0px;
+  }
+
+  #introduction .container h2 {
+    font-size: 30px;
+    margin: 7px 0px;
+  }
+}
+
+@media (max-width: 1536px) {
+  #introduction {
+    display: flex;
+    height: 100vh;
+    background-color: #121212;
+  }
+  #introduction .container {
+    color: whitesmoke;
+    margin: auto 18.9rem;
+    font-family: "Ubuntu", sans-serif;
+  }
+  #introduction .container p {
+    font-size: 26px;
+    margin: 7px 0px;
+  }
+  #introduction .container h1 {
+    font-size: 57px;
+    margin: 7px 0px;
+  }
+
+  #introduction .container h2 {
+    font-size: 30px;
+    margin: 7px 0px;
+  }
+}
