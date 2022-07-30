@@ -9,6 +9,22 @@ Pages Setup/ : Done
 Public Setup/ : Done
 
 TODO: 
+
+STYLING Navigation/ -> Styling & Functions
+STYLING Footer/ -> Styling
+STYLING Home/ -> Styling
+STYLING Project/ -> Styling
+STYLING Contact/ -> Styling
+
+global/ :
+global.js -> Scroll Animation
+
+CSS/MediaQueries/:
+Queries -> Mobile to Desktop/Responsive
+
+COMPLETED:
+
+Components/: 
 Pages/:
 App.ejs [
     Header & Navigation
@@ -21,23 +37,10 @@ Components Home/:
 3_Page.ejs -> My Skills
 4_Page.ejs -> My Skills Percent 
 5_Page.ejs -> Social
+
 Components Projects/ :
 1_Page.ejs -> Open Source Project
 
-CSS Navigation/ -> Styling & Functions
-CSS Footer/ -> Styling
-CSS Home/ -> Styling
-CSS Project/ -> Styling
-CSS Contact/ -> Styling
-
-global/ :
-global.js -> Scroll Animation
-
-CSS/MediaQueries/:
-Queries -> Mobile to Desktop/Responsive
-
-COMPLETED:
-Components/: 
 Contact
 1_Page.ejs -> Forms/Api
 

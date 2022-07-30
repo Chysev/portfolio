@@ -9,8 +9,14 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="global.css">
-    <link rel="stylesheet" href="Navigation.css">
+    <script src="Navigation.js" defer></script>
     <link rel="stylesheet" href="Footer.css">
+
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
 
     <!-- Javascript -->
     <script src="global.js" defer></script>
@@ -21,7 +27,22 @@
 
     <!-- Header -->
 
-    <header></header>
+    <header>
+        <div id="navigation">
+            <div class="navigation-title">
+                <h1>Layda</h1>
+            </div>
+            <button class="nav-controler" aria-controls="primary-navigation" aria-expanded="false"><span
+                    class="sr-only">Menu</span></button>
+            <nav data-visible="false" class="primary-navigation">
+                <ul class="secondary-navigation">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/Projects">Projects</a></li>
+                    <li><a href="/Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
     <!-- BODY -->
 
@@ -31,7 +52,10 @@
 
     <!-- Footer -->
 
-    <footer></footer>
+    <footer>
+        <span>Created By <a href="#">John Layda</a> | <span class="far fa-copyright"></span> All rights
+            reserved.</span>
+    </footer>
 
 </body>
 

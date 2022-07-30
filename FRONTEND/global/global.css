@@ -17,6 +17,8 @@ html {
 body {
   text-rendering: optimizeSpeed;
   overflow-x: hidden;
+  user-select: none;
+  -webkit-user-drag: none;
 }
 
 /* Scrolls */
