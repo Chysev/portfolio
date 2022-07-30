@@ -47,23 +47,6 @@ navigation.textContent = `
   text-decoration: none;
 }
 
-@media (max-width: 320px) {
-}
-
-@media (max-width: 375px) {
-}
-
-@media (max-width: 420px) {
-}
-
-@media (max-width: 480px) {
-}
-
-@media (max-width: 560px) {
-}
-
-@media (max-width: 640px) {
-}
 
 @media (max-width: 768px) {
   #navigation {
@@ -114,14 +97,6 @@ navigation.textContent = `
   }
 }
 
-@media (max-width: 1024px) {
-}
-
-@media (max-width: 1280px) {
-}
-
-@media (max-width: 1536px) {
-}
 
 `;
 document.head.appendChild(navigation);
