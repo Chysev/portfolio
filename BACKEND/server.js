@@ -13,7 +13,7 @@ const api = new database({
 });
 
 app.post("/api", async (req, res) => {
-  const contact = await [
+  const contact = [
     {
       firstname: req.body.firstname,
       lastname: req.body.lastname,
