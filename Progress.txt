@@ -10,7 +10,7 @@ Public Setup/ : Done
 
 TODO: 
 
-STYLING Navigation/ -> Styling & Functions
+
 STYLING Footer/ -> Styling
 STYLING Home/ -> Styling
 STYLING Project/ -> Styling
@@ -43,6 +43,8 @@ Components Projects/ :
 
 Contact
 1_Page.ejs -> Forms/Api
+
+STYLING Navigation/ -> Styling & Functions
 
 
 BACKEND

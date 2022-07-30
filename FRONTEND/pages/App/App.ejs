@@ -9,9 +9,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="global.css">
-    <script src="Navigation.js" defer></script>
-    <link rel="stylesheet" href="Footer.css">
-
+    <link rel="stylesheet" href="aos.css">
 
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,8 +17,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
 
     <!-- Javascript -->
+    <script src="aos.js" defer></script>
     <script src="global.js" defer></script>
+    <!-- Styles -->
     <script src="Navigation.js" defer></script>
+    <script src="Footer.js" defer></script>
 </head>
 
 <body>
@@ -28,14 +29,12 @@
     <!-- Header -->
 
     <header>
-        <div id="navigation">
-            <div class="navigation-title">
-                <h1>Layda</h1>
-            </div>
-            <button class="nav-controler" aria-controls="primary-navigation" aria-expanded="false"><span
+        <div id="navigation" data-aos="fade-down">
+            <h1 data-aos="fade-right">Layda</h1>
+            <button class="nav-controler" arial-controls="primary-navigation" arial-expanded="false"><span
                     class="sr-only">Menu</span></button>
             <nav data-visible="false" class="primary-navigation">
-                <ul class="secondary-navigation">
+                <ul class="secondary-navigation" data-aos="fade-left">
                     <li><a href="/">Home</a></li>
                     <li><a href="/Projects">Projects</a></li>
                     <li><a href="/Contact">Contact</a></li>
@@ -43,6 +42,8 @@
             </nav>
         </div>
     </header>
+
+
 
     <!-- BODY -->
 
