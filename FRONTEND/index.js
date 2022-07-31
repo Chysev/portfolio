@@ -4,7 +4,7 @@ import path from "path";
 const app = express();
 const PORT = 3000;
 
-// LiveServer || Temporary
+// LiveServer || Temporary;
 import livereload from "livereload";
 import connectLiveReload from "connect-livereload";
 const Public = path.dirname("Public");

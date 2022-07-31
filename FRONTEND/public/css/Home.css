@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 #introduction {
   display: flex;
@@ -8,7 +9,7 @@
 
 #introduction .container {
   color: whitesmoke;
-  margin: auto 24.4rem;
+  margin: auto 24.7rem;
   font-family: "Ubuntu", sans-serif;
 }
 #introduction .container p {
@@ -23,32 +24,432 @@
 #introduction .container h2 {
   font-size: 38px;
   margin: 7px 0px;
+  font-weight: 400;
 }
 
 .aboutme-btn {
   background-color: #dc143c;
   border-color: #dc143c;
+  border-style: solid;
   margin: 20px 0px 0px;
   font-size: 25px;
-  color: #f7ccd5;
+  color: white;
   display: inline-block;
+  font-family: "Ubuntu", sans-serif;
   border-radius: 6px;
   padding: 12px 36px;
+  cursor: pointer;
+}
+.aboutme-btn:hover {
+  background-color: transparent;
+  transition: ease 0.3s;
+  color: crimson;
 }
 
-@media (max-width: 320px) {
+#aboutme {
+  display: flex;
+  height: 70vh;
+  background-color: rgb(248, 247, 247);
+}
+#aboutme .container {
+  display: flex;
+  justify-content: space-around;
+  width: 65%;
+  align-items: center;
+  margin: auto auto;
+}
+#aboutme .container .left {
+  height: 400px;
+  width: 400px;
+  margin: auto 3.48rem;
+}
+#aboutme .container .left img {
+  object-fit: cover;
+  height: 400px;
+  width: 400px;
+}
+#aboutme .container .right {
+  margin: auto auto;
+  width: 50%;
+}
+#aboutme .container .right h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  margin: 0.1em auto;
+}
+#aboutme .container .right h2 {
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0.1em auto;
+}
+#aboutme .container .right .down h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  margin: 0.2em auto;
+}
+#aboutme .container .right .down img {
+  height: 30px;
+  width: 30px;
+}
+
+.MySkills,
+.Social {
+  background-color: #dc143c;
+  border-color: #dc143c;
+  margin: 20px 0px 0px;
+  font-size: 20px;
+  color: white;
+  display: inline-block;
+  border-radius: 7px;
+  padding: 10px 30px;
+  cursor: pointer;
+  border-style: solid;
+}
+
+.MySkills:hover,
+.Social:hover {
+  background-color: transparent;
+  transition: ease 0.3s;
+  color: crimson;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+  /* Introduction */
   #introduction {
     display: flex;
-    height: 110vh;
+    height: 100vh;
     background-color: #121212;
   }
   #introduction .container {
     color: whitesmoke;
-    margin: auto;
+    margin: auto 2rem;
     font-family: "Ubuntu", sans-serif;
   }
   #introduction .container p {
     font-size: 24px;
+    margin: 7px 0px;
+  }
+  #introduction .container h1 {
+    font-size: 50px;
+    margin: 7px 0px;
+  }
+
+  #introduction .container h2 {
+    font-size: 27px;
+    margin: 7px 0px;
+  }
+
+  /* About Me */
+  #aboutme {
+    height: 100vh;
+    display: flex;
+  }
+  #aboutme .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: auto auto;
+  }
+  #aboutme .container .left {
+    height: 200px;
+    width: 200px;
+  }
+  #aboutme .container .left img {
+    height: 200px;
+    width: 200px;
+    margin: auto auto;
+  }
+  #aboutme .container .right {
+    margin: auto auto;
+    width: 90%;
+  }
+  #aboutme .container .right h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    margin: 0.1em auto;
+  }
+  #aboutme .container .right h2 {
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    font-size: 16px;
+    margin: 0.1em auto;
+  }
+  #aboutme .container .right .down h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 23px;
+    margin: 0.2em auto;
+  }
+  #aboutme .container .right .down img {
+    height: 25px;
+    width: 25px;
+  }
+}
+@media (min-width: 376px) and (max-width: 420px) {
+  #introduction .container {
+    margin: auto 2.6rem;
+  }
+  #introduction .container p {
+    font-size: 24px;
+    margin: 7px 0px;
+  }
+  #introduction .container h1 {
+    font-size: 50px;
+    margin: 7px 0px;
+  }
+
+  #introduction .container h2 {
+    font-size: 27px;
+    margin: 7px 0px;
+  }
+  /* About Me */
+  #aboutme {
+    height: 85vh;
+    display: flex;
+  }
+  #aboutme .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: auto auto;
+  }
+  #aboutme .container .left {
+    height: 260px;
+    width: 260px;
+  }
+  #aboutme .container .left img {
+    height: 260px;
+    width: 260px;
+    margin: auto auto;
+  }
+  #aboutme .container .right {
+    margin: auto auto;
+    width: 90%;
+  }
+  #aboutme .container .right h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    margin: 0.1em auto;
+  }
+  #aboutme .container .right h2 {
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    font-size: 16px;
+    margin: 0.1em auto;
+  }
+  #aboutme .container .right .down h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 23px;
+    margin: 0.2em auto;
+  }
+  #aboutme .container .right .down img {
+    height: 25px;
+    width: 25px;
+  }
+}
+@media (min-width: 421px) and (max-width: 480px) {
+  #introduction .container {
+    margin: auto 3.69rem;
+  }
+  #introduction .container p {
+    font-size: 24px;
+    margin: 7px 0px;
+  }
+  #introduction .container h1 {
+    font-size: 50px;
+    margin: 7px 0px;
+  }
+
+  #introduction .container h2 {
+    font-size: 27px;
+    margin: 7px 0px;
+  }
+  /* About Me */
+  #aboutme {
+    height: 95vh;
+    display: flex;
+  }
+  #aboutme .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: auto auto;
+  }
+  #aboutme .container .left {
+    height: 270px;
+    width: 270px;
+  }
+  #aboutme .container .left img {
+    margin: auto auto;
+
+    height: 270px;
+    width: 270px;
+  }
+  #aboutme .container .right {
+    margin: auto auto;
+
+    width: 90%;
+  }
+  #aboutme .container .right h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    margin: 0.1em auto;
+  }
+  #aboutme .container .right h2 {
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    font-size: 16px;
+    margin: 0.1em auto;
+  }
+  #aboutme .container .right .down h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 23px;
+    margin: 0.2em auto;
+  }
+  #aboutme .container .right .down img {
+    height: 25px;
+    width: 25px;
+  }
+}
+@media (min-width: 481px) and (max-width: 560px) {
+  #introduction .container {
+    margin: auto 4.9rem;
+  }
+  #introduction .container p {
+    font-size: 24px;
+    margin: 7px 0px;
+  }
+  #introduction .container h1 {
+    font-size: 50px;
+    margin: 7px 0px;
+  }
+
+  #introduction .container h2 {
+    font-size: 27px;
+    margin: 7px 0px;
+  }
+  /* About Me */
+  #aboutme {
+    height: 100vh;
+    display: flex;
+  }
+  #aboutme .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: auto auto;
+  }
+  #aboutme .container .left {
+    height: 280px;
+    width: 280px;
+  }
+  #aboutme .container .left img {
+    margin: auto auto;
+
+    height: 280px;
+    width: 280px;
+  }
+  #aboutme .container .right {
+    margin: auto auto;
+
+    width: 90%;
+  }
+  #aboutme .container .right h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    margin: 0.1em auto;
+  }
+  #aboutme .container .right h2 {
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    font-size: 16px;
+    margin: 0.1em auto;
+  }
+  #aboutme .container .right .down h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 23px;
+    margin: 0.2em auto;
+  }
+  #aboutme .container .right .down img {
+    height: 25px;
+    width: 25px;
+  }
+}
+@media (min-width: 561px) and (max-width: 640px) {
+  #introduction .container {
+    margin: auto 6.1rem;
+  }
+  #introduction .container p {
+    font-size: 24px;
+    margin: 7px 0px;
+  }
+  #introduction .container h1 {
+    font-size: 50px;
+    margin: 7px 0px;
+  }
+
+  #introduction .container h2 {
+    font-size: 27px;
+    margin: 7px 0px;
+  }
+  /* About Me */
+  #aboutme {
+    height: 90vh;
+    display: flex;
+  }
+  #aboutme .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: auto auto;
+  }
+  #aboutme .container .left {
+    height: 290px;
+    width: 290px;
+  }
+  #aboutme .container .left img {
+    margin: auto auto;
+
+    height: 290px;
+    width: 290px;
+  }
+  #aboutme .container .right {
+    margin: auto auto;
+    width: 90%;
+  }
+  #aboutme .container .right h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    margin: 0.1em auto;
+  }
+  #aboutme .container .right h2 {
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    font-size: 16px;
+    margin: 0.1em auto;
+  }
+  #aboutme .container .right .down h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 23px;
+    margin: 0.2em auto;
+  }
+  #aboutme .container .right .down img {
+    height: 25px;
+    width: 25px;
+  }
+}
+@media (min-width: 641px) and (max-width: 768px) {
+  #introduction .container {
+    margin: auto 8.1rem;
+  }
+  #introduction .container p {
+    font-size: 25px;
     margin: 7px 0px;
   }
   #introduction .container h1 {
@@ -57,24 +458,62 @@
   }
 
   #introduction .container h2 {
-    font-size: 28px;
+    font-size: 30px;
     margin: 7px 0px;
   }
-}
-
-@media (max-width: 375px) {
-  #introduction {
+  /* About Me */
+  #aboutme {
+    height: 85vh;
     display: flex;
-    height: 100vh;
-    background-color: #121212;
   }
+  #aboutme .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: auto auto;
+  }
+  #aboutme .container .left {
+    height: 310px;
+    width: 310px;
+  }
+  #aboutme .container .left img {
+    margin: auto auto;
+
+    height: 310px;
+    width: 310px;
+  }
+  #aboutme .container .right {
+    margin: auto auto;
+    width: 90%;
+  }
+  #aboutme .container .right h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    margin: 0.1em auto;
+  }
+  #aboutme .container .right h2 {
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    font-size: 16px;
+    margin: 0.1em auto;
+  }
+  #aboutme .container .right .down h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 23px;
+    margin: 0.2em auto;
+  }
+  #aboutme .container .right .down img {
+    height: 25px;
+    width: 25px;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
   #introduction .container {
-    color: whitesmoke;
-    margin: auto;
-    font-family: "Ubuntu", sans-serif;
+    margin: auto 10.1rem;
   }
   #introduction .container p {
-    font-size: 24px;
+    font-size: 25px;
     margin: 7px 0px;
   }
   #introduction .container h1 {
@@ -83,28 +522,65 @@
   }
 
   #introduction .container h2 {
-    font-size: 28px;
+    font-size: 30px;
     margin: 7px 0px;
   }
-}
-
-@media (max-width: 420px) {
-  #introduction {
+  /* About Me */
+  #aboutme {
+    height: 60vh;
     display: flex;
-    height: 100vh;
-    background-color: #121212;
   }
+  #aboutme .container {
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    align-items: center;
+    margin: auto auto;
+  }
+  #aboutme .container .left {
+    height: 310px;
+    width: 310px;
+  }
+  #aboutme .container .left img {
+    margin: auto auto;
+    height: 310px;
+    width: 310px;
+  }
+  #aboutme .container .right {
+    margin: auto auto auto 1rem;
+    width: 60%;
+  }
+  #aboutme .container .right h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    margin: 0.1em auto;
+  }
+  #aboutme .container .right h2 {
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    font-size: 16px;
+    margin: 0.1em auto;
+  }
+  #aboutme .container .right .down h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 23px;
+    margin: 0.2em auto;
+  }
+  #aboutme .container .right .down img {
+    height: 25px;
+    width: 25px;
+  }
+}
+@media (min-width: 993px) and (max-width: 1024px) {
   #introduction .container {
-    color: whitesmoke;
-    margin: auto;
-    font-family: "Ubuntu", sans-serif;
+    margin: auto 10.8rem;
   }
   #introduction .container p {
-    font-size: 26px;
+    font-size: 27px;
     margin: 7px 0px;
   }
   #introduction .container h1 {
-    font-size: 57px;
+    font-size: 60px;
     margin: 7px 0px;
   }
 
@@ -112,211 +588,115 @@
     font-size: 30px;
     margin: 7px 0px;
   }
+  /* About Me */
+  #aboutme {
+    height: 55vh;
+    display: flex;
+  }
+  #aboutme .container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    align-items: center;
+    margin: auto auto;
+  }
+  #aboutme .container .left {
+    height: 310px;
+    width: 310px;
+  }
+  #aboutme .container .left img {
+    margin: auto auto;
+
+    height: 310px;
+    width: 310px;
+  }
+  #aboutme .container .right {
+    margin: auto auto;
+    width: 55%;
+  }
+  #aboutme .container .right h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    margin: 0.1em auto;
+  }
+  #aboutme .container .right h2 {
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    font-size: 16px;
+    margin: 0.1em auto;
+  }
+  #aboutme .container .right .down h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 23px;
+    margin: 0.2em auto;
+  }
+  #aboutme .container .right .down img {
+    height: 25px;
+    width: 25px;
+  }
 }
 
-@media (max-width: 480px) {
-  #introduction {
-    display: flex;
-    height: 100vh;
-    background-color: #121212;
-  }
+@media (min-width: 1025px) and (max-width: 1280px) {
   #introduction .container {
-    color: whitesmoke;
-    margin: auto 3.7rem;
-    font-family: "Ubuntu", sans-serif;
+    margin: auto 14.8rem;
   }
   #introduction .container p {
-    font-size: 26px;
+    font-size: 27px;
     margin: 7px 0px;
   }
   #introduction .container h1 {
-    font-size: 57px;
+    font-size: 65px;
     margin: 7px 0px;
   }
 
   #introduction .container h2 {
-    font-size: 30px;
+    font-size: 35px;
     margin: 7px 0px;
   }
-}
-
-@media (max-width: 560px) {
-  #introduction {
+  /* About Me */
+  #aboutme {
+    height: 60vh;
     display: flex;
-    height: 100vh;
-    background-color: #121212;
   }
-  #introduction .container {
-    color: whitesmoke;
-    margin: auto 5rem;
-    font-family: "Ubuntu", sans-serif;
-  }
-  #introduction .container p {
-    font-size: 26px;
-    margin: 7px 0px;
-  }
-  #introduction .container h1 {
-    font-size: 57px;
-    margin: 7px 0px;
-  }
-
-  #introduction .container h2 {
-    font-size: 30px;
-    margin: 7px 0px;
-  }
-}
-
-@media (max-width: 640px) {
-  #introduction {
+  #aboutme .container {
     display: flex;
-    height: 100vh;
-    background-color: #121212;
+    justify-content: space-around;
+    width: 80%;
+    align-items: center;
+    margin: auto auto;
   }
-  #introduction .container {
-    color: whitesmoke;
-    margin: auto 6.3rem;
-    font-family: "Ubuntu", sans-serif;
+  #aboutme .container .left {
+    height: 310px;
+    width: 310px;
   }
-  #introduction .container p {
-    font-size: 26px;
-    margin: 7px 0px;
-  }
-  #introduction .container h1 {
-    font-size: 57px;
-    margin: 7px 0px;
-  }
+  #aboutme .container .left img {
+    margin: auto auto;
 
-  #introduction .container h2 {
-    font-size: 30px;
-    margin: 7px 0px;
+    height: 310px;
+    width: 310px;
   }
-}
-
-@media (max-width: 768px) {
-  #introduction {
-    display: flex;
-    height: 100vh;
-    background-color: #121212;
+  #aboutme .container .right {
+    margin: auto auto;
+    width: 60%;
   }
-  #introduction .container {
-    color: whitesmoke;
-    margin: auto 8.2rem;
-    font-family: "Ubuntu", sans-serif;
+  #aboutme .container .right h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    margin: 0.1em auto;
   }
-  #introduction .container p {
-    font-size: 26px;
-    margin: 7px 0px;
+  #aboutme .container .right h2 {
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    font-size: 16px;
+    margin: 0.1em auto;
   }
-  #introduction .container h1 {
-    font-size: 57px;
-    margin: 7px 0px;
+  #aboutme .container .right .down h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 23px;
+    margin: 0.2em auto;
   }
-
-  #introduction .container h2 {
-    font-size: 30px;
-    margin: 7px 0px;
-  }
-}
-
-@media (max-width: 992px) {
-  #introduction {
-    display: flex;
-    height: 100vh;
-    background-color: #121212;
-  }
-  #introduction .container {
-    color: whitesmoke;
-    margin: auto 10.5rem;
-    font-family: "Ubuntu", sans-serif;
-  }
-  #introduction .container p {
-    font-size: 26px;
-    margin: 7px 0px;
-  }
-  #introduction .container h1 {
-    font-size: 57px;
-    margin: 7px 0px;
-  }
-
-  #introduction .container h2 {
-    font-size: 30px;
-    margin: 7px 0px;
-  }
-}
-@media (max-width: 1024px) {
-  #introduction {
-    display: flex;
-    height: 100vh;
-    background-color: #121212;
-  }
-  #introduction .container {
-    color: whitesmoke;
-    margin: auto 10.9rem;
-    font-family: "Ubuntu", sans-serif;
-  }
-  #introduction .container p {
-    font-size: 26px;
-    margin: 7px 0px;
-  }
-  #introduction .container h1 {
-    font-size: 57px;
-    margin: 7px 0px;
-  }
-
-  #introduction .container h2 {
-    font-size: 30px;
-    margin: 7px 0px;
-  }
-}
-
-@media (max-width: 1280px) {
-  #introduction {
-    display: flex;
-    height: 100vh;
-    background-color: #121212;
-  }
-  #introduction .container {
-    color: whitesmoke;
-    margin: auto 15rem;
-    font-family: "Ubuntu", sans-serif;
-  }
-  #introduction .container p {
-    font-size: 26px;
-    margin: 7px 0px;
-  }
-  #introduction .container h1 {
-    font-size: 57px;
-    margin: 7px 0px;
-  }
-
-  #introduction .container h2 {
-    font-size: 30px;
-    margin: 7px 0px;
-  }
-}
-
-@media (max-width: 1536px) {
-  #introduction {
-    display: flex;
-    height: 100vh;
-    background-color: #121212;
-  }
-  #introduction .container {
-    color: whitesmoke;
-    margin: auto 18.9rem;
-    font-family: "Ubuntu", sans-serif;
-  }
-  #introduction .container p {
-    font-size: 26px;
-    margin: 7px 0px;
-  }
-  #introduction .container h1 {
-    font-size: 57px;
-    margin: 7px 0px;
-  }
-
-  #introduction .container h2 {
-    font-size: 30px;
-    margin: 7px 0px;
+  #aboutme .container .right .down img {
+    height: 25px;
+    width: 25px;
   }
 }

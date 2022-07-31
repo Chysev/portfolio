@@ -48,6 +48,7 @@ navigation.textContent = `
 }
 
 
+
 @media (max-width: 768px) {
   #navigation {
     display: flex;
@@ -61,7 +62,7 @@ navigation.textContent = `
   }
   .primary-navigation {
     position: fixed;
-    inset: 0 0 0 30%;
+    inset: 0 0 0 20%;
     background: steelblue;
     background: hsl(0 0% 100% / 0.1);
     backdrop-filter: blur(1rem);

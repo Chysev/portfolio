@@ -12,7 +12,7 @@ TODO:
 
 
 
-STYLING Home/ -> Styling 20% Done
+STYLING Home/ -> Styling 40% Done
 STYLING Project/ -> Styling
 STYLING Contact/ -> Styling
 STYLING Footer/ -> Styling
