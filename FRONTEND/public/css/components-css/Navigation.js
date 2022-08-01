@@ -12,6 +12,7 @@ navigation.textContent = `
   width: 100%;
   z-index: 999;
   transition: all 200ms ease-in-out;
+  box-shadow: 0 0 1px whitesmoke;
 }
 
 #navigation h1,
@@ -33,7 +34,7 @@ navigation.textContent = `
 }
 
 .secondary-navigation a {
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: 0.5px;
 }
 
