@@ -1,4 +1,9 @@
 <head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <!-- CSS -->
     <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="aos.css">
@@ -12,8 +17,6 @@
     <script src="aos.js" defer></script>
     <script src="global.js" defer></script>
     <script src="typing.js" defer></script>
-    <!-- Styles -->
-    <link rel="stylesheet" href="Home.css">
 </head>
 
 
@@ -26,3 +29,1553 @@
                     <%- include("../components/Home/5_Page.ejs") %>
 
 </body>
+
+<!-- Styles -->
+
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+    /* Introduction */
+
+    #introduction {
+        display: flex;
+        height: 100vh;
+        background-color: #121212;
+    }
+
+    #introduction .container {
+        color: whitesmoke;
+        margin: auto 24.4rem;
+        font-family: "Ubuntu", sans-serif;
+    }
+
+    #introduction .container p {
+        font-size: 27px;
+        margin: 7px 0px;
+    }
+
+    #introduction .container h1 {
+        font-size: 75px;
+        margin: 7px 0px;
+    }
+
+    #introduction .container h2 {
+        font-size: 38px;
+        margin: 7px 0px;
+        font-weight: 400;
+    }
+
+    .aboutme-btn {
+        background-color: #dc143c;
+        border-color: #dc143c;
+        border-style: solid;
+        margin: 20px 0px 0px;
+        font-size: 25px;
+        color: white;
+        display: inline-block;
+        font-family: "Ubuntu", sans-serif;
+        border-radius: 6px;
+        padding: 12px 36px;
+        cursor: pointer;
+    }
+
+    .aboutme-btn:hover {
+        background-color: transparent;
+        transition: ease 0.3s;
+        color: crimson;
+    }
+
+    /* About Me */
+
+    #aboutme {
+        display: flex;
+        height: 70vh;
+        background-color: rgb(248, 247, 247);
+    }
+
+    #aboutme .container {
+        display: flex;
+        justify-content: space-around;
+        width: 65%;
+        align-items: center;
+        margin: auto auto;
+    }
+
+    #aboutme .container .left {
+        height: 400px;
+        width: 400px;
+        margin: auto 3.48rem;
+    }
+
+    #aboutme .container .left img {
+        object-fit: cover;
+        height: 400px;
+        width: 400px;
+    }
+
+    #aboutme .container .right {
+        margin: auto auto;
+        width: 50%;
+    }
+
+    #aboutme .container .right h1 {
+        font-family: "Poppins", sans-serif;
+        font-size: 25px;
+        margin: 0.1em auto;
+    }
+
+    #aboutme .container .right h2 {
+        font-family: "Poppins", sans-serif;
+        text-align: justify;
+        font-size: 18px;
+        font-weight: 400;
+        margin: 0.1em auto;
+    }
+
+    #aboutme .container .right .down h1 {
+        font-family: "Poppins", sans-serif;
+        font-size: 22px;
+        margin: 0.2em auto;
+    }
+
+    #aboutme .container .right .down img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .MySkills,
+    .Social {
+        background-color: #dc143c;
+        border-color: #dc143c;
+        margin: 20px 0px 0px;
+        font-size: 20px;
+        color: white;
+        display: inline-block;
+        border-radius: 7px;
+        padding: 10px 30px;
+        cursor: pointer;
+        border-style: solid;
+    }
+
+    .MySkills:hover,
+    .Social:hover {
+        background-color: transparent;
+        transition: ease 0.3s;
+        color: crimson;
+    }
+
+    /* MySkills Cards */
+
+    #myskills {
+        display: flex;
+        height: 50vh;
+        background-color: #1f2937;
+    }
+
+    #myskills .grp-card-skills {
+        display: flex;
+        justify-content: space-around;
+        margin: auto 20rem;
+        height: 40vh;
+        width: 80rem;
+        align-items: center;
+    }
+
+    #myskills .grp-card-skills .card-skills {
+        height: 35vh;
+        width: 18vw;
+        background-color: #111827;
+        color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 12px;
+    }
+
+    #myskills .grp-card-skills .card-skills i {
+        font-size: 70px;
+        text-align: center;
+        margin: 1.2rem auto;
+        color: crimson;
+    }
+
+    #myskills .grp-card-skills .card-skills h1 {
+        font-size: 33px;
+        font-family: "Ubuntu", sans-serif;
+        margin: 1.2rem auto;
+    }
+
+    #myskills .grp-card-skills .card-skills h2 {
+        font-size: 27px;
+        font-family: "Ubuntu", sans-serif;
+        margin: 1.2rem auto;
+    }
+
+    @media (min-width: 320px) and (max-width: 375px) {
+
+        /* Introduction */
+        #introduction {
+            display: flex;
+            height: 100vh;
+            background-color: #121212;
+        }
+
+        #introduction .container {
+            color: whitesmoke;
+            margin: auto 2rem;
+            font-family: "Ubuntu", sans-serif;
+        }
+
+        #introduction .container p {
+            font-size: 24px;
+            margin: 7px 0px;
+        }
+
+        #introduction .container h1 {
+            font-size: 50px;
+            margin: 7px 0px;
+        }
+
+        #introduction .container h2 {
+            font-size: 27px;
+            margin: 7px 0px;
+        }
+
+        /* About Me */
+        #aboutme {
+            height: 100vh;
+            display: flex;
+        }
+
+        #aboutme .container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+            margin: auto auto;
+        }
+
+        #aboutme .container .left {
+            height: 200px;
+            width: 200px;
+        }
+
+        #aboutme .container .left img {
+            height: 200px;
+            width: 200px;
+            margin: auto auto;
+        }
+
+        #aboutme .container .right {
+            margin: auto auto;
+            width: 90%;
+        }
+
+        #aboutme .container .right h1 {
+            font-family: "Poppins", sans-serif;
+            font-size: 25px;
+            margin: 0.1em auto;
+        }
+
+        #aboutme .container .right h2 {
+            font-family: "Poppins", sans-serif;
+            text-align: justify;
+            font-size: 16px;
+            margin: 0.1em auto;
+        }
+
+        #aboutme .container .right .down h1 {
+            font-family: "Poppins", sans-serif;
+            font-size: 23px;
+            margin: 0.2em auto;
+        }
+
+        #aboutme .container .right .down img {
+            height: 25px;
+            width: 25px;
+        }
+
+        /* MySkills Cards */
+        #myskills {
+            display: flex;
+            height: 130vh;
+            background-color: #1f2937;
+        }
+
+        #myskills .grp-card-skills {
+            display: flex;
+            flex-direction: column;
+            margin: auto auto;
+            height: 40vh;
+            width: 80rem;
+            align-items: center;
+        }
+
+        #myskills .grp-card-skills .card-skills {
+            height: 35vh;
+            width: 70vw;
+            background-color: #111827;
+            color: whitesmoke;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 1.5rem auto;
+            border-radius: 12px;
+        }
+
+        #myskills .grp-card-skills .card-skills i {
+            font-size: 50px;
+            text-align: center;
+            margin: 1.2rem auto;
+            color: crimson;
+        }
+
+        #myskills .grp-card-skills .card-skills h1 {
+            font-size: 23px;
+            font-family: "Ubuntu", sans-serif;
+            margin: 1.2rem auto;
+        }
+
+        #myskills .grp-card-skills .card-skills h2 {
+            font-size: 20px;
+            font-family: "Ubuntu", sans-serif;
+            margin: 1.2rem auto;
+        }
+    }
+
+    @media (min-width: 376px) and (max-width: 420px) {
+        #introduction .container {
+            margin: auto 2.6rem;
+        }
+
+        #introduction .container p {
+            font-size: 24px;
+            margin: 7px 0px;
+        }
+
+        #introduction .container h1 {
+            font-size: 50px;
+            margin: 7px 0px;
+        }
+
+        #introduction .container h2 {
+            font-size: 27px;
+            margin: 7px 0px;
+        }
+
+        /* About Me */
+        #aboutme {
+            height: 85vh;
+            display: flex;
+        }
+
+        #aboutme .container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+            margin: auto auto;
+        }
+
+        #aboutme .container .left {
+            height: 260px;
+            width: 260px;
+        }
+
+        #aboutme .container .left img {
+            height: 260px;
+            width: 260px;
+            margin: auto auto;
+        }
+
+        #aboutme .container .right {
+            margin: auto auto;
+            width: 90%;
+        }
+
+        #aboutme .container .right h1 {
+            font-family: "Poppins", sans-serif;
+            font-size: 25px;
+            margin: 0.1em auto;
+        }
+
+        #aboutme .container .right h2 {
+            font-family: "Poppins", sans-serif;
+            text-align: justify;
+            font-size: 16px;
+            margin: 0.1em auto;
+        }
+
+        #aboutme .container .right .down h1 {
+            font-family: "Poppins", sans-serif;
+            font-size: 23px;
+            margin: 0.2em auto;
+        }
+
+        #aboutme .container .right .down img {
+            height: 25px;
+            width: 25px;
+        }
+
+        /* MySkills Cards */
+        #myskills {
+            display: flex;
+            height: 110vh;
+            background-color: #1f2937;
+        }
+
+        #myskills .grp-card-skills {
+            display: flex;
+            flex-direction: column;
+            margin: auto auto;
+            height: 40vh;
+            width: 80rem;
+            align-items: center;
+        }
+
+        #myskills .grp-card-skills .card-skills {
+            height: 35vh;
+            width: 80vw;
+            background-color: #111827;
+            color: whitesmoke;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 1.5rem auto;
+            border-radius: 12px;
+        }
+
+        #myskills .grp-card-skills .card-skills i {
+            font-size: 50px;
+            text-align: center;
+            margin: 1.2rem auto;
+            color: crimson;
+        }
+
+        #myskills .grp-card-skills .card-skills h1 {
+            font-size: 28px;
+            font-family: "Ubuntu", sans-serif;
+            margin: 1.2rem auto;
+        }
+
+        #myskills .grp-card-skills .card-skills h2 {
+            font-size: 20px;
+            font-family: "Ubuntu", sans-serif;
+            margin: 1.2rem auto;
+        }
+    }
+
+    @media (min-width: 421px) and (max-width: 480px) {
+        #introduction .container {
+            margin: auto 3.69rem;
+        }
+
+        #introduction .container p {
+            font-size: 24px;
+            margin: 7px 0px;
+        }
+
+        #introduction .container h1 {
+            font-size: 50px;
+            margin: 7px 0px;
+        }
+
+        #introduction .container h2 {
+            font-size: 27px;
+            margin: 7px 0px;
+        }
+
+        /* About Me */
+        #aboutme {
+            height: 95vh;
+            display: flex;
+        }
+
+        #aboutme .container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+            margin: auto auto;
+        }
+
+        #aboutme .container .left {
+            height: 270px;
+            width: 270px;
+        }
+
+        #aboutme .container .left img {
+            margin: auto auto;
+
+            height: 270px;
+            width: 270px;
+        }
+
+        #aboutme .container .right {
+            margin: auto auto;
+
+            width: 90%;
+        }
+
+        #aboutme .container .right h1 {
+            font-family: "Poppins", sans-serif;
+            font-size: 25px;
+            margin: 0.1em auto;
+        }
+
+        #aboutme .container .right h2 {
+            font-family: "Poppins", sans-serif;
+            text-align: justify;
+            font-size: 16px;
+            margin: 0.1em auto;
+        }
+
+        #aboutme .container .right .down h1 {
+            font-family: "Poppins", sans-serif;
+            font-size: 23px;
+            margin: 0.2em auto;
+        }
+
+        #aboutme .container .right .down img {
+            height: 25px;
+            width: 25px;
+        }
+
+        /* MySkills Cards */
+        #myskills {
+            display: flex;
+            height: 115vh;
+            background-color: #1f2937;
+        }
+
+        #myskills .grp-card-skills {
+            display: flex;
+            flex-direction: column;
+            margin: auto auto;
+            height: 40vh;
+            width: 80rem;
+            align-items: center;
+        }
+
+        #myskills .grp-card-skills .card-skills {
+            height: 35vh;
+            width: 80vw;
+            background-color: #111827;
+            color: whitesmoke;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 1.5rem auto;
+            border-radius: 12px;
+        }
+
+        #myskills .grp-card-skills .card-skills i {
+            font-size: 50px;
+            text-align: center;
+            margin: 1.2rem auto;
+            color: crimson;
+        }
+
+        #myskills .grp-card-skills .card-skills h1 {
+            font-size: 28px;
+            font-family: "Ubuntu", sans-serif;
+            margin: 1.2rem auto;
+        }
+
+        #myskills .grp-card-skills .card-skills h2 {
+            font-size: 20px;
+            font-family: "Ubuntu", sans-serif;
+            margin: 1.2rem auto;
+        }
+    }
+
+    @media (min-width: 481px) and (max-width: 560px) {
+        #introduction .container {
+            margin: auto 4.9rem;
+        }
+
+        #introduction .container p {
+            font-size: 24px;
+            margin: 7px 0px;
+        }
+
+        #introduction .container h1 {
+            font-size: 50px;
+            margin: 7px 0px;
+        }
+
+        #introduction .container h2 {
+            font-size: 27px;
+            margin: 7px 0px;
+        }
+
+        /* About Me */
+        #aboutme {
+            height: 100vh;
+            display: flex;
+        }
+
+        #aboutme .container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+            margin: auto auto;
+        }
+
+        #aboutme .container .left {
+            height: 280px;
+            width: 280px;
+        }
+
+        #aboutme .container .left img {
+            margin: auto auto;
+
+            height: 280px;
+            width: 280px;
+        }
+
+        #aboutme .container .right {
+            margin: auto auto;
+
+            width: 90%;
+        }
+
+        #aboutme .container .right h1 {
+            font-family: "Poppins", sans-serif;
+            font-size: 25px;
+            margin: 0.1em auto;
+        }
+
+        #aboutme .container .right h2 {
+            font-family: "Poppins", sans-serif;
+            text-align: justify;
+            font-size: 16px;
+            margin: 0.1em auto;
+        }
+
+        #aboutme .container .right .down h1 {
+            font-family: "Poppins", sans-serif;
+            font-size: 23px;
+            margin: 0.2em auto;
+        }
+
+        #aboutme .container .right .down img {
+            height: 25px;
+            width: 25px;
+        }
+
+        /* MySkills Cards */
+        #myskills {
+            display: flex;
+            height: 125vh;
+            background-color: #1f2937;
+        }
+
+        #myskills .grp-card-skills {
+            display: flex;
+            flex-direction: column;
+            margin: auto auto;
+            height: 40vh;
+            width: 80rem;
+            align-items: center;
+        }
+
+        #myskills .grp-card-skills .card-skills {
+            height: 35vh;
+            width: 80vw;
+            background-color: #111827;
+            color: whitesmoke;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 1.5rem auto;
+            border-radius: 12px;
+        }
+
+        #myskills .grp-card-skills .card-skills i {
+            font-size: 50px;
+            text-align: center;
+            margin: 1.2rem auto;
+            color: crimson;
+        }
+
+        #myskills .grp-card-skills .card-skills h1 {
+            font-size: 28px;
+            font-family: "Ubuntu", sans-serif;
+            margin: 1.2rem auto;
+        }
+
+        #myskills .grp-card-skills .card-skills h2 {
+            font-size: 20px;
+            font-family: "Ubuntu", sans-serif;
+            margin: 1.2rem auto;
+        }
+    }
+
+    @media (min-width: 561px) and (max-width: 640px) {
+        #introduction .container {
+            margin: auto 6.1rem;
+        }
+
+        #introduction .container p {
+            font-size: 24px;
+            margin: 7px 0px;
+        }
+
+        #introduction .container h1 {
+            font-size: 50px;
+            margin: 7px 0px;
+        }
+
+        #introduction .container h2 {
+            font-size: 27px;
+            margin: 7px 0px;
+        }
+
+        /* About Me */
+        #aboutme {
+            height: 90vh;
+            display: flex;
+        }
+
+        #aboutme .container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+            margin: auto auto;
+        }
+
+        #aboutme .container .left {
+            height: 290px;
+            width: 290px;
+        }
+
+        #aboutme .container .left img {
+            margin: auto auto;
+
+            height: 290px;
+            width: 290px;
+        }
+
+        #aboutme .container .right {
+            margin: auto auto;
+            width: 90%;
+        }
+
+        #aboutme .container .right h1 {
+            font-family: "Poppins", sans-serif;
+            font-size: 25px;
+            margin: 0.1em auto;
+        }
+
+        #aboutme .container .right h2 {
+            font-family: "Poppins", sans-serif;
+            text-align: justify;
+            font-size: 16px;
+            margin: 0.1em auto;
+        }
+
+        #aboutme .container .right .down h1 {
+            font-family: "Poppins", sans-serif;
+            font-size: 23px;
+            margin: 0.2em auto;
+        }
+
+        #aboutme .container .right .down img {
+            height: 25px;
+            width: 25px;
+        }
+
+        /* MySkills Cards */
+        #myskills {
+            display: flex;
+            height: 125vh;
+            background-color: #1f2937;
+        }
+
+        #myskills .grp-card-skills {
+            display: flex;
+            flex-direction: column;
+            margin: auto auto;
+            height: 40vh;
+            width: 80rem;
+            align-items: center;
+        }
+
+        #myskills .grp-card-skills .card-skills {
+            height: 35vh;
+            width: 80vw;
+            background-color: #111827;
+            color: whitesmoke;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 1.5rem auto;
+            border-radius: 12px;
+        }
+
+        #myskills .grp-card-skills .card-skills i {
+            font-size: 50px;
+            text-align: center;
+            margin: 1.2rem auto;
+            color: crimson;
+        }
+
+        #myskills .grp-card-skills .card-skills h1 {
+            font-size: 36px;
+            font-family: "Ubuntu", sans-serif;
+            margin: 1.2rem auto;
+        }
+
+        #myskills .grp-card-skills .card-skills h2 {
+            font-size: 27px;
+            font-family: "Ubuntu", sans-serif;
+            margin: 1.2rem auto;
+        }
+    }
+
+    @media (min-width: 641px) and (max-width: 768px) {
+        #introduction .container {
+            margin: auto 8.1rem;
+        }
+
+        #introduction .container p {
+            font-size: 25px;
+            margin: 7px 0px;
+        }
+
+        #introduction .container h1 {
+            font-size: 55px;
+            margin: 7px 0px;
+        }
+
+        #introduction .container h2 {
+            font-size: 30px;
+            margin: 7px 0px;
+        }
+
+        /* About Me */
+        #aboutme {
+            height: 85vh;
+            display: flex;
+        }
+
+        #aboutme .container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+            margin: auto auto;
+        }
+
+        #aboutme .container .left {
+            height: 310px;
+            width: 310px;
+        }
+
+        #aboutme .container .left img {
+            margin: auto auto;
+
+            height: 310px;
+            width: 310px;
+        }
+
+        #aboutme .container .right {
+            margin: auto auto;
+            width: 90%;
+        }
+
+        #aboutme .container .right h1 {
+            font-family: "Poppins", sans-serif;
+            font-size: 25px;
+            margin: 0.1em auto;
+        }
+
+        #aboutme .container .right h2 {
+            font-family: "Poppins", sans-serif;
+            text-align: justify;
+            font-size: 16px;
+            margin: 0.1em auto;
+        }
+
+        #aboutme .container .right .down h1 {
+            font-family: "Poppins", sans-serif;
+            font-size: 23px;
+            margin: 0.2em auto;
+        }
+
+        #aboutme .container .right .down img {
+            height: 25px;
+            width: 25px;
+        }
+
+        /* MySkills Cards */
+        #myskills {
+            display: flex;
+            height: 125vh;
+            background-color: #1f2937;
+        }
+
+        #myskills .grp-card-skills {
+            display: flex;
+            flex-direction: column;
+            margin: auto auto;
+            height: 40vh;
+            width: 80rem;
+            align-items: center;
+        }
+
+        #myskills .grp-card-skills .card-skills {
+            height: 35vh;
+            width: 80vw;
+            background-color: #111827;
+            color: whitesmoke;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 1.5rem auto;
+            border-radius: 12px;
+        }
+
+        #myskills .grp-card-skills .card-skills i {
+            font-size: 50px;
+            text-align: center;
+            margin: 1.2rem auto;
+            color: crimson;
+        }
+
+        #myskills .grp-card-skills .card-skills h1 {
+            font-size: 36px;
+            font-family: "Ubuntu", sans-serif;
+            margin: 1.2rem auto;
+        }
+
+        #myskills .grp-card-skills .card-skills h2 {
+            font-size: 27px;
+            font-family: "Ubuntu", sans-serif;
+            margin: 1.2rem auto;
+        }
+    }
+
+    @media (min-width: 769px) and (max-width: 992px) {
+        #introduction .container {
+            margin: auto 10.1rem;
+        }
+
+        #introduction .container p {
+            font-size: 25px;
+            margin: 7px 0px;
+        }
+
+        #introduction .container h1 {
+            font-size: 55px;
+            margin: 7px 0px;
+        }
+
+        #introduction .container h2 {
+            font-size: 30px;
+            margin: 7px 0px;
+        }
+
+        /* About Me */
+        #aboutme {
+            height: 60vh;
+            display: flex;
+        }
+
+        #aboutme .container {
+            display: flex;
+            justify-content: space-around;
+            width: 95%;
+            align-items: center;
+            margin: auto auto;
+        }
+
+        #aboutme .container .left {
+            height: 310px;
+            width: 310px;
+        }
+
+        #aboutme .container .left img {
+            margin: auto auto;
+            height: 310px;
+            width: 310px;
+        }
+
+        #aboutme .container .right {
+            margin: auto auto auto 1rem;
+            width: 60%;
+        }
+
+        #aboutme .container .right h1 {
+            font-family: "Poppins", sans-serif;
+            font-size: 25px;
+            margin: 0.1em auto;
+        }
+
+        #aboutme .container .right h2 {
+            font-family: "Poppins", sans-serif;
+            text-align: justify;
+            font-size: 16px;
+            margin: 0.1em auto;
+        }
+
+        #aboutme .container .right .down h1 {
+            font-family: "Poppins", sans-serif;
+            font-size: 23px;
+            margin: 0.2em auto;
+        }
+
+        #aboutme .container .right .down img {
+            height: 25px;
+            width: 25px;
+        }
+
+        /* MySkills Cards */
+        #myskills {
+            display: flex;
+            min-height: 20vh;
+            max-height: 100vh;
+            background-color: #1f2937;
+        }
+
+        #myskills .grp-card-skills {
+            display: flex;
+            justify-content: space-around;
+            margin: auto auto;
+            height: 40vh;
+            width: 60rem;
+            align-items: center;
+        }
+
+        #myskills .grp-card-skills .card-skills {
+            height: 35vh;
+            width: 50vw;
+            background-color: #111827;
+            color: whitesmoke;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: auto 2rem;
+            border-radius: 12px;
+        }
+
+        #myskills .grp-card-skills .card-skills i {
+            font-size: 50px;
+            text-align: center;
+            margin: 1.2rem auto;
+            color: crimson;
+        }
+
+        #myskills .grp-card-skills .card-skills h1 {
+            font-size: 27px;
+            font-family: "Ubuntu", sans-serif;
+            margin: 1.2rem auto;
+        }
+
+        #myskills .grp-card-skills .card-skills h2 {
+            font-size: 24px;
+            font-family: "Ubuntu", sans-serif;
+            margin: 1.2rem auto;
+        }
+    }
+
+    @media (min-width: 993px) and (max-width: 1024px) {
+        #introduction .container {
+            margin: auto 10.8rem;
+        }
+
+        #introduction .container p {
+            font-size: 27px;
+            margin: 7px 0px;
+        }
+
+        #introduction .container h1 {
+            font-size: 60px;
+            margin: 7px 0px;
+        }
+
+        #introduction .container h2 {
+            font-size: 30px;
+            margin: 7px 0px;
+        }
+
+        /* About Me */
+        #aboutme {
+            height: 55vh;
+            display: flex;
+        }
+
+        #aboutme .container {
+            display: flex;
+            justify-content: space-around;
+            width: 80%;
+            align-items: center;
+            margin: auto auto;
+        }
+
+        #aboutme .container .left {
+            height: 310px;
+            width: 310px;
+        }
+
+        #aboutme .container .left img {
+            margin: auto auto;
+
+            height: 310px;
+            width: 310px;
+        }
+
+        #aboutme .container .right {
+            margin: auto auto;
+            width: 55%;
+        }
+
+        #aboutme .container .right h1 {
+            font-family: "Poppins", sans-serif;
+            font-size: 25px;
+            margin: 0.1em auto;
+        }
+
+        #aboutme .container .right h2 {
+            font-family: "Poppins", sans-serif;
+            text-align: justify;
+            font-size: 16px;
+            margin: 0.1em auto;
+        }
+
+        #aboutme .container .right .down h1 {
+            font-family: "Poppins", sans-serif;
+            font-size: 23px;
+            margin: 0.2em auto;
+        }
+
+        #aboutme .container .right .down img {
+            height: 25px;
+            width: 25px;
+        }
+
+        /* MySkills Cards */
+        #myskills {
+            display: flex;
+            min-height: 20vh;
+            max-height: 100vh;
+            background-color: #1f2937;
+        }
+
+        #myskills .grp-card-skills {
+            display: flex;
+            justify-content: space-around;
+            margin: auto auto;
+            height: 40vh;
+            width: 60rem;
+            align-items: center;
+        }
+
+        #myskills .grp-card-skills .card-skills {
+            height: 35vh;
+            width: 50vw;
+            background-color: #111827;
+            color: whitesmoke;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: auto 2rem;
+            border-radius: 12px;
+        }
+
+        #myskills .grp-card-skills .card-skills i {
+            font-size: 50px;
+            text-align: center;
+            margin: 1.2rem auto;
+            color: crimson;
+        }
+
+        #myskills .grp-card-skills .card-skills h1 {
+            font-size: 27px;
+            font-family: "Ubuntu", sans-serif;
+            margin: 1.2rem auto;
+        }
+
+        #myskills .grp-card-skills .card-skills h2 {
+            font-size: 24px;
+            font-family: "Ubuntu", sans-serif;
+            margin: 1.2rem auto;
+        }
+    }
+
+    @media (min-width: 1025px) and (max-width: 1280px) {
+        #introduction .container {
+            margin: auto 14.8rem;
+        }
+
+        #introduction .container p {
+            font-size: 27px;
+            margin: 7px 0px;
+        }
+
+        #introduction .container h1 {
+            font-size: 65px;
+            margin: 7px 0px;
+        }
+
+        #introduction .container h2 {
+            font-size: 35px;
+            margin: 7px 0px;
+        }
+
+        /* About Me */
+        #aboutme {
+            height: 60vh;
+            display: flex;
+        }
+
+        #aboutme .container {
+            display: flex;
+            justify-content: space-around;
+            width: 80%;
+            align-items: center;
+            margin: auto auto;
+        }
+
+        #aboutme .container .left {
+            height: 310px;
+            width: 310px;
+        }
+
+        #aboutme .container .left img {
+            margin: auto auto;
+
+            height: 310px;
+            width: 310px;
+        }
+
+        #aboutme .container .right {
+            margin: auto auto;
+            width: 60%;
+        }
+
+        #aboutme .container .right h1 {
+            font-family: "Poppins", sans-serif;
+            font-size: 25px;
+            margin: 0.1em auto;
+        }
+
+        #aboutme .container .right h2 {
+            font-family: "Poppins", sans-serif;
+            text-align: justify;
+            font-size: 16px;
+            margin: 0.1em auto;
+        }
+
+        #aboutme .container .right .down h1 {
+            font-family: "Poppins", sans-serif;
+            font-size: 23px;
+            margin: 0.2em auto;
+        }
+
+        #aboutme .container .right .down img {
+            height: 25px;
+            width: 25px;
+        }
+
+        /* MySkills Cards */
+        #myskills {
+            display: flex;
+            min-height: 20vh;
+            max-height: 100vh;
+            background-color: #1f2937;
+        }
+
+        #myskills .grp-card-skills {
+            display: flex;
+            justify-content: space-around;
+            margin: auto auto;
+            height: 40vh;
+            width: 60rem;
+            align-items: center;
+        }
+
+        #myskills .grp-card-skills .card-skills {
+            height: 35vh;
+            width: 50vw;
+            background-color: #111827;
+            color: whitesmoke;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: auto 2rem;
+            border-radius: 12px;
+        }
+
+        #myskills .grp-card-skills .card-skills i {
+            font-size: 50px;
+            text-align: center;
+            margin: 1.2rem auto;
+            color: crimson;
+        }
+
+        #myskills .grp-card-skills .card-skills h1 {
+            font-size: 27px;
+            font-family: "Ubuntu", sans-serif;
+            margin: 1.2rem auto;
+        }
+
+        #myskills .grp-card-skills .card-skills h2 {
+            font-size: 24px;
+            font-family: "Ubuntu", sans-serif;
+            margin: 1.2rem auto;
+        }
+    }
+
+    @media (min-width: 1921px) and (max-width: 2560px) {
+        #introduction .container {
+            margin: auto 34.6rem;
+        }
+
+        #introduction .container p {
+            font-size: 27px;
+            margin: 7px 0px;
+        }
+
+        #introduction .container h1 {
+            font-size: 65px;
+            margin: 7px 0px;
+        }
+
+        #introduction .container h2 {
+            font-size: 35px;
+            margin: 7px 0px;
+        }
+
+        /* About Me */
+        #aboutme {
+            height: 60vh;
+            display: flex;
+        }
+
+        #aboutme .container {
+            display: flex;
+            justify-content: space-around;
+            width: 80%;
+            align-items: center;
+            margin: auto auto;
+        }
+
+        #aboutme .container .left {
+            height: 310px;
+            width: 310px;
+        }
+
+        #aboutme .container .left img {
+            margin: auto auto;
+
+            height: 310px;
+            width: 310px;
+        }
+
+        #aboutme .container .right {
+            margin: auto auto;
+            width: 60%;
+        }
+
+        #aboutme .container .right h1 {
+            font-family: "Poppins", sans-serif;
+            font-size: 25px;
+            margin: 0.1em auto;
+        }
+
+        #aboutme .container .right h2 {
+            font-family: "Poppins", sans-serif;
+            text-align: justify;
+            font-size: 16px;
+            margin: 0.1em auto;
+        }
+
+        #aboutme .container .right .down h1 {
+            font-family: "Poppins", sans-serif;
+            font-size: 23px;
+            margin: 0.2em auto;
+        }
+
+        #aboutme .container .right .down img {
+            height: 25px;
+            width: 25px;
+        }
+
+        /* MySkills Cards */
+        #myskills {
+            display: flex;
+            min-height: 20vh;
+            max-height: 100vh;
+            background-color: #1f2937;
+        }
+
+        #myskills .grp-card-skills {
+            display: flex;
+            justify-content: space-around;
+            margin: auto auto;
+            height: 40vh;
+            width: 60rem;
+            align-items: center;
+        }
+
+        #myskills .grp-card-skills .card-skills {
+            height: 35vh;
+            width: 50vw;
+            background-color: #111827;
+            color: whitesmoke;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: auto 2rem;
+            border-radius: 12px;
+        }
+
+        #myskills .grp-card-skills .card-skills i {
+            font-size: 50px;
+            text-align: center;
+            margin: 1.2rem auto;
+            color: crimson;
+        }
+
+        #myskills .grp-card-skills .card-skills h1 {
+            font-size: 27px;
+            font-family: "Ubuntu", sans-serif;
+            margin: 1.2rem auto;
+        }
+
+        #myskills .grp-card-skills .card-skills h2 {
+            font-size: 24px;
+            font-family: "Ubuntu", sans-serif;
+            margin: 1.2rem auto;
+        }
+    }
+
+    @media (min-width: 2561px) and (max-width: 3840px) {
+        #introduction .container {
+            margin: auto 34.6rem;
+        }
+
+        #introduction .container p {
+            font-size: 27px;
+            margin: 7px 0px;
+        }
+
+        #introduction .container h1 {
+            font-size: 65px;
+            margin: 7px 0px;
+        }
+
+        #introduction .container h2 {
+            font-size: 35px;
+            margin: 7px 0px;
+        }
+
+        /* About Me */
+        #aboutme {
+            height: 60vh;
+            display: flex;
+        }
+
+        #aboutme .container {
+            display: flex;
+            justify-content: space-around;
+            width: 80%;
+            align-items: center;
+            margin: auto auto;
+        }
+
+        #aboutme .container .left {
+            height: 310px;
+            width: 310px;
+        }
+
+        #aboutme .container .left img {
+            margin: auto auto;
+
+            height: 310px;
+            width: 310px;
+        }
+
+        #aboutme .container .right {
+            margin: auto auto;
+            width: 60%;
+        }
+
+        #aboutme .container .right h1 {
+            font-family: "Poppins", sans-serif;
+            font-size: 25px;
+            margin: 0.1em auto;
+        }
+
+        #aboutme .container .right h2 {
+            font-family: "Poppins", sans-serif;
+            text-align: justify;
+            font-size: 16px;
+            margin: 0.1em auto;
+        }
+
+        #aboutme .container .right .down h1 {
+            font-family: "Poppins", sans-serif;
+            font-size: 23px;
+            margin: 0.2em auto;
+        }
+
+        #aboutme .container .right .down img {
+            height: 25px;
+            width: 25px;
+        }
+
+        /* MySkills Cards */
+        #myskills {
+            display: flex;
+            min-height: 20vh;
+            max-height: 100vh;
+            background-color: #1f2937;
+        }
+
+        #myskills .grp-card-skills {
+            display: flex;
+            justify-content: space-around;
+            margin: auto auto;
+            height: 40vh;
+            width: 60rem;
+            align-items: center;
+        }
+
+        #myskills .grp-card-skills .card-skills {
+            height: 35vh;
+            width: 50vw;
+            background-color: #111827;
+            color: whitesmoke;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: auto 2rem;
+            border-radius: 12px;
+        }
+
+        #myskills .grp-card-skills .card-skills i {
+            font-size: 50px;
+            text-align: center;
+            margin: 1.2rem auto;
+            color: crimson;
+        }
+
+        #myskills .grp-card-skills .card-skills h1 {
+            font-size: 27px;
+            font-family: "Ubuntu", sans-serif;
+            margin: 1.2rem auto;
+        }
+
+        #myskills .grp-card-skills .card-skills h2 {
+            font-size: 24px;
+            font-family: "Ubuntu", sans-serif;
+            margin: 1.2rem auto;
+        }
+    }
+</style>
