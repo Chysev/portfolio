@@ -1,3 +1,5 @@
+AOS.init();
+
 window.onscroll = function () {
   myFunction();
 };
@@ -12,5 +14,3 @@ function myFunction() {
     document.getElementById("navigation").style.padding = "31px 0px";
   }
 }
-
-AOS.init();
